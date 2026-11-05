@@ -1,0 +1,85 @@
+app:
+  project_name: "Vietnamese Cultural Heritage VQA"
+  version: "0.1.0-mvp"
+  log_level: "INFO"                  # Options: DEBUG, INFO, WARNING, ERROR
+  sample_dir: "data/samples"         # Directory containing sample heritage images
+
+model:
+  # Hugging Face model repository identifier or local directory
+  model_id: "models/Vintern-1B-v3_5"
+  
+  # Target compute device: "cuda" | "cpu" | "auto"
+  device: "cuda"
+  
+  # Tensor computation precision: "bfloat16" | "float16" | "float32"
+  # Note: bfloat16 is recommended for modern GPUs (Ampere / Ada Lovelace or newer).
+  torch_dtype: "bfloat16"
+  
+  # Load custom model execution code from Hugging Face repository
+  trust_remote_code: true
+  
+  # Quantization options (set to true if operating on GPUs with < 6GB VRAM)
+  load_in_4bit: false
+  load_in_8bit: false
+  
+  # Flash Attention acceleration (requires supported GPU and pre-compiled flash-attn package)
+  use_flash_attn: false
+
+generation:
+  # Maximum number of tokens generated in a single response turn
+  max_new_tokens: 512
+  
+  # Sampling temperature: Lower values (0.2 - 0.4) reduce factual hallucination for heritage topics
+  temperature: 0.3
+  
+  # Nucleus sampling probability threshold
+  top_p: 0.9
+  
+  # Repetition penalty to discourage repetitive phrasing in Vietnamese responses
+  repetition_penalty: 1.15
+  
+  # Whether to use sampling (true) or greedy decoding (false)
+  do_sample: true
+
+context:
+  # Maximum number of preceding dialogue turns preserved in the model context window
+  # Helps prevent context window overflow and out-of-memory errors in extended sessions
+  max_history_turns: 4
+  
+  # Placeholder token representing the image embedding in prompt construction
+  image_token: "<image>"
+  
+  # Maximum image dimension (width or height) in pixels before resizing
+  max_image_dim: 1024
+  
+  # System instruction defining assistant identity, tone, and uncertainty guardrails
+  system_prompt: >
+    Bạn là một trợ lý trí tuệ nhân tạo am hiểu và trân trọng di sản văn hóa, lịch sử Việt Nam.
+    Nhiệm vụ của bạn là quan sát kỹ bức ảnh được cung cấp và trả lời câu hỏi của người dùng
+    bằng tiếng Việt một cách khách quan, mạch lạc, tôn trọng lịch sử và văn hóa.
+    
+    Quy tắc ứng xử quan trọng:
+    1. Chỉ đưa ra nhận định dựa trên các chi tiết có thể quan sát được trong bức ảnh kết hợp với kiến thức lịch sử đã được công nhận.
+    2. Nếu hình ảnh mờ, góc chụp không rõ ràng hoặc thông tin về tên di tích, niên đại, hiện vật không thể khẳng định chắc chắn, hãy khiêm tốn thừa nhận sự thiếu thông tin thay vì tự suy đoán hoặc bịa đặt chi tiết lịch sử.
+    3. Giữ thái độ nhã nhặn, chuẩn mực và mang tính giáo dục.
+
+ui:
+  title: "Vietnamese Cultural Heritage VQA"
+  description: "Khám phá và tìm hiểu di sản văn hóa, di tích lịch sử và kiến trúc truyền thống Việt Nam qua hình ảnh."
+  disclaimer: "Lưu ý: Câu trả lời được sinh tự động bởi mô hình VLM baseline phục vụ mục đích học tập và thử nghiệm. Vui lòng kiểm chứng lại các thông tin lịch sử quan trọng qua tài liệu chính thống."
+  
+  # Network binding configuration
+  server_name: "0.0.0.0"
+  server_port: 8501
+  
+  # Set to true to generate a public share link
+  share: false
+  
+  # Image upload restrictions
+  max_upload_size_mb: 10
+  allowed_extensions:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".webp"
+
