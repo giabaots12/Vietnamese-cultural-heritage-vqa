@@ -1,0 +1,42 @@
+# ==============================================================================
+# Vietnamese Cultural Heritage VQA - Dependencies
+# ==============================================================================
+# NOTE ON PYTORCH INSTALLATION:
+# Install PyTorch with CUDA support first, tailored to your local CUDA version:
+# For CUDA 12.1 / 12.4:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# For CPU-only (testing/smoke checks):
+#   pip install torch torchvision
+
+# --- Core Deep Learning & VLM Framework ---
+# Note: Vintern-1B-v3.5 is based on InternVL. transformers 4.49.x is recommended for stability.
+transformers>=4.48.0,<=4.50.0
+accelerate>=0.28.0
+timm>=0.9.12
+einops>=0.7.0
+sentencepiece>=0.2.0
+
+# --- Image Processing & Media ---
+Pillow>=10.0.0
+
+# --- Web UI ---
+streamlit>=1.35.0
+gradio>=4.30.0,<5.0.0
+
+# --- Configuration & Data Validation ---
+PyYAML>=6.0.1
+pydantic>=2.6.0
+
+# --- Fine-Tuning & Benchmarking (LoRA / PEFT) ---
+peft>=0.10.0
+datasets>=2.18.0
+evaluate>=0.4.1
+rouge-score>=0.1.2
+
+# --- Optional / Performance Enhancements ---
+# Uncomment if operating in low VRAM environments (< 6GB) for 4-bit / 8-bit quantization:
+# bitsandbytes>=0.43.0
+
+# Uncomment for accelerated attention (Linux/WSL recommended; requires CUDA compilation tools):
+# flash-attn>=2.5.0
+

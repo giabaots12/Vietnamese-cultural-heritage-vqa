@@ -1,0 +1,54 @@
+# ==============================================================================
+# Vietnamese Cultural Heritage VQA - Git Ignore Rules
+# ==============================================================================
+
+# Python bytecode & runtime cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Streamlit secrets and cache
+.streamlit/secrets.toml
+
+# Heavy Model Weights & Pre-trained Checkpoints (>100MB)
+models/Vintern-1B-v3_5/
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.pth
+models/**/*.pt
+checkpoints/
+.cache/
+
+# Dataset files & Archives (Images & Zip archives >100MB)
+data/VietTravelVQA.zip
+data/VietTravelVQA/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/benchmark/*
+!data/benchmark/.gitkeep
+data/samples/*
+!data/samples/.gitkeep
+*.zip
+*.tar.gz
+*.7z
+
+# Bulky Experiment Output Dumps (keep only markdown summaries)
+experiments/**/*.json
+docs/training_logs/*.json
+
+# IDE & OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
