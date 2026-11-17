@@ -1,0 +1,1662 @@
+{
+  "VN_000010_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình xác định đúng màu sắc (đỏ) khớp với đáp án chuẩn (cam/đỏ), đây là sự trùng khớp hoàn toàn về mặt ngữ nghĩa."
+  },
+  "VN_000010_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời mơ hồ ('một vài chiếc', 'có thể có thêm nhiều') và thừa nhận không xác định được, trong khi đáp án chuẩn là con số cụ thể 'Một chiếc', dẫn đến sai lệch về thông tin cốt lõi."
+  },
+  "VN_000010_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác dạng địa hình là núi đá vôi, khớp hoàn toàn với đáp án chuẩn và bổ sung thêm mô tả chi tiết phù hợp."
+  },
+  "VN_000010_q4": {
+    "score": 1,
+    "reasoning": "Mô hình thừa nhận không thể xác định chính xác và đưa ra các suy đoán sai lệch (như lân sư tử) thay vì nhận diện đúng cờ ngũ sắc Phật giáo như đáp án chuẩn."
+  },
+  "VN_000010_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai vị trí cốt lõi (nói đền nằm ở trung tâm thung lũng thay vì trên vị trí cao nhìn xuống) và bịa đặt chi tiết cảnh quan (đồng bằng, cánh đồng lúa) không có trong đáp án chuẩn."
+  },
+  "VN_000031_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc chính là vàng (cụ thể là vàng nhạt), phù hợp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_000031_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng (hai thay vì ba) và bịa đặt thêm các chi tiết không có trong đáp án chuẩn."
+  },
+  "VN_000031_q3": {
+    "score": 1,
+    "reasoning": "Mô hình không xác định được tên chùa và chỉ đưa ra suy đoán chung chung, không khớp với đáp án chuẩn Chùa Tiền Châu."
+  },
+  "VN_000031_q4": {
+    "score": 3,
+    "reasoning": "Câu trả lời chỉ nêu đúng ý nghĩa 'trường tồn' (tương đương vĩnh cửu) nhưng thiếu các ý nghĩa quan trọng khác như may mắn và thịnh vượng, đồng thời thêm vào các chi tiết chung chung không có trong đáp án chuẩn."
+  },
+  "VN_000031_q5": {
+    "score": 1,
+    "reasoning": "Câu trả lời sai hoàn toàn cả ba thông tin chính: phủ nhận tên chùa, nhận diện sai vị Phật (Quan Âm thay vì Thích Ca Mâu Ni) và sai số lượng cửa (2 thay vì 3)."
+  },
+  "VN_000052_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc của biển hiệu."
+  },
+  "VN_000052_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác số lượng là ba cửa hàng, khớp hoàn toàn với đáp án chuẩn và cung cấp thêm thông tin chi tiết cụ thể."
+  },
+  "VN_000052_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình cung cấp chính xác tên cửa hàng 'Quốc Hương' như trong đáp án chuẩn, dù được trình bày dưới dạng câu hoàn chỉnh."
+  },
+  "VN_000052_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác phương tiện là xe máy, trùng khớp hoàn toàn với đáp án chuẩn và cung cấp thêm ngữ cảnh phù hợp."
+  },
+  "VN_000052_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời đúng màu xe (đỏ) nhưng sai hoàn toàn biển số xe so với đáp án chuẩn."
+  },
+  "VN_000056_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc là đỏ, khớp hoàn toàn với đáp án chuẩn, phần mô tả thêm về vị trí treo không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000056_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác công trình là ngôi chùa, một loại kiến trúc truyền thống của Việt Nam, hoàn toàn khớp với đáp án chuẩn."
+  },
+  "VN_000056_q4": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai dịp lễ chính (Tết Nguyên Đán thay vì Lễ Phật Đản), tuy nhiên vẫn liên quan đến bối cảnh trang trí chùa chiền nên không bị đánh giá là bịa đặt hoàn toàn."
+  },
+  "VN_000056_q5": {
+    "score": 4,
+    "reasoning": "Mô hình nhận diện đúng các yếu tố chính như cây xanh, cột đá, đèn lồng và không khí trang nghiêm, tuy nhiên có sự nhầm lẫn nhỏ khi gọi là 'lăng mộ' thay vì 'bậc thang' và thiếu chi tiết về lá cờ Phật giáo."
+  },
+  "VN_000056_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng cụ thể (10 so với khoảng 30), dẫn đến kết quả không chính xác về mặt dữ kiện."
+  },
+  "VN_000077_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc là vàng, trùng khớp hoàn toàn với đáp án chuẩn và bổ sung thêm ngữ cảnh phù hợp."
+  },
+  "VN_000077_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng cửa sổ (nói là hai trong khi đáp án chuẩn là bốn), đây là lỗi sai về dữ kiện chính của câu hỏi."
+  },
+  "VN_000077_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên công trình (nói là Công trình Thiên Chúa thay vì Thánh Thất Cao Đài) và bịa đặt các chi tiết kiến trúc không đúng với thực tế."
+  },
+  "VN_000077_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tôn giáo (Phật giáo thay vì Đạo Cao Đài), đây là lỗi bịa đặt thực thể lịch sử/văn hóa."
+  },
+  "VN_000077_q5": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng vị trí tương đối (phía trên) so với đáp án chuẩn, tuy nhiên thiếu chi tiết về vị trí cụ thể của chữ 'CAO' (bên trái) và thêm chi tiết 'bên dưới mái vòm' không có trong đáp án chuẩn nhưng không làm sai lệch ý chính."
+  },
+  "VN_000161_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng tông màu chủ đạo là đỏ (đỏ đất gần với đỏ gạch/nâu đỏ), tuy nhiên thiếu đi sắc thái nâu đỏ cụ thể và thêm các mô tả cảm xúc không có trong đáp án chuẩn."
+  },
+  "VN_000161_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng (hai thay vì ba), đây là lỗi sai sự thật trực tiếp về dữ kiện chính của câu hỏi."
+  },
+  "VN_000161_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác quốc gia là Việt Nam và mô tả đúng biểu tượng cờ đỏ sao vàng, hoàn toàn khớp với đáp án chuẩn."
+  },
+  "VN_000161_q5": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng thực thể kiến trúc (mái vòm) và nhận diện được các loại cây (bụi cây, cây xanh), tuy nhiên thiếu chi tiết cụ thể về việc cây bụi được cắt tỉa và không nêu rõ sự hiện diện của cây cao như trong đáp án chuẩn."
+  },
+  "VN_000161_q4": {
+    "score": 3,
+    "reasoning": "Mô hình trả lời đúng phạm vi chung là di tích lịch sử/công trình văn hóa nhưng thiếu các chi tiết cụ thể về kiến trúc (cổng thành, cung điện) và đưa ra các gợi ý không chính xác như chùa chiền, đền thờ."
+  },
+  "VN_000181_q1": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai màu sắc của chữ (trắng thay vì vàng), đây là thông tin cốt lõi của câu hỏi."
+  },
+  "VN_000181_q2": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng số lượng (hai tấm) nhưng mô tả sai nội dung và vị trí cụ thể của các biển báo so với đáp án chuẩn."
+  },
+  "VN_000181_q3": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng loại kiến trúc tôn giáo (đền thờ/chùa) và đặc điểm truyền thống, tuy nhiên thiếu đi các chi tiết cụ thể về cột gỗ như trong đáp án chuẩn."
+  },
+  "VN_000181_q4": {
+    "score": 2,
+    "reasoning": "Mô hình đã bịa đặt nội dung cụ thể trên biển (dòng chữ 'Đền Giêng', nội quy về trộm cắp/phá hủy) không có trong đáp án chuẩn, dù vẫn nắm bắt được ý chung về sự tôn trọng tại nơi thờ cúng."
+  },
+  "VN_000181_q5": {
+    "score": 2,
+    "reasoning": "Mô hình chỉ nhận diện được tên địa điểm (Đền Giêng) và vị trí lư hương đang cháy, nhưng hoàn toàn bỏ sót thông tin quan trọng về quy định cấm/hạn chế thắp hương bên trong chính điện như yêu cầu của câu hỏi và đáp án chuẩn."
+  },
+  "VN_000198_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc là xanh ngọc lam, khớp hoàn toàn với đáp án chuẩn (xanh lam hoặc xanh ngọc)."
+  },
+  "VN_000198_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác nhận chính xác số lượng là hai, khớp hoàn toàn với đáp án chuẩn, các chi tiết bổ sung không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000198_q3": {
+    "score": 2,
+    "reasoning": "Mô hình bịa đặt các chi tiết không có trong đáp án chuẩn (chất liệu bê tông, công năng chỗ ở/sinh hoạt cộng đồng) và không nhận diện đúng bản chất là nhà gác hoặc công trình trang trí như đáp án chuẩn."
+  },
+  "VN_000198_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã xác định đúng các ý nghĩa cốt lõi (quyền lực/quyền uy, may mắn) và bối cảnh văn hóa (Á Đông, Việt Nam) như đáp án chuẩn, tuy nhiên thiếu từ khóa 'thịnh vượng' và thêm vào các suy diễn phụ về không gian yên bình không có trong đáp án chuẩn."
+  },
+  "VN_000198_q5": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã nắm bắt đúng ý chính về sự hài hòa giữa kiến trúc nhân tạo và thiên nhiên (hồ, rừng, trời), tuy nhiên có một chi tiết sai lệch nhỏ khi gọi là 'vùng biển' thay vì cảnh quan hồ/rừng như đáp án chuẩn."
+  },
+  "VN_000209_q1": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng màu sắc chính (xanh dương/xanh trong) nhưng thêm chi tiết về đám mây và cảm xúc không có trong đáp án chuẩn, tuy nhiên không làm sai lệch ý chính."
+  },
+  "VN_000209_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng thuyền (nói là hai trong khi đáp án chuẩn là một) và bịa đặt chi tiết không có trong đáp án chuẩn."
+  },
+  "VN_000209_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn thực thể (đoán là cây cọ) trong khi đáp án chuẩn là cây phi lao, đây là lỗi bịa đặt/hallucination."
+  },
+  "VN_000209_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời đã nêu chính xác mục đích chính là đánh bắt cá, đồng thời bổ sung thêm các mục đích liên quan hợp lý và mô tả ngữ cảnh hình ảnh, không đi lệch khỏi đáp án chuẩn."
+  },
+  "VN_000209_q5": {
+    "score": 2,
+    "reasoning": "Mô hình nhận diện đúng bóng đổ dài nhưng sai hoàn toàn về vị trí mặt trời (nói phía sau/gần bờ biển thay vì phía trên) và thời điểm (nói sáng sớm/hoàng hôn thay vì trưa/đầu chiều), dẫn đến kết luận sai lệch về ngữ cảnh ánh sáng."
+  },
+  "VN_000241_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình xác định chính xác màu sắc của chiếc ô là màu trắng, khớp hoàn toàn với thông tin cốt lõi trong đáp án chuẩn."
+  },
+  "VN_000241_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác số lượng thuyền (hai chiếc) và vị trí neo đậu gần bờ, đồng thời cung cấp thêm chi tiết mô tả phù hợp với ngữ cảnh, không mâu thuẫn với đáp án chuẩn."
+  },
+  "VN_000241_q3": {
+    "score": 2,
+    "reasoning": "Mô hình nhận diện đúng bối cảnh liên quan đến cá và hồ nước nhưng sai hoàn toàn về hoạt động chính (cho là bắt cá bằng lưới thay vì câu cá) và tư thế (cho là đứng thay vì ngồi), dẫn đến câu trả lời lạc đề và thiếu chính xác."
+  },
+  "VN_000241_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã xác định đúng mục đích cốt lõi là du lịch và ngắm cảnh trên hồ, tuy nhiên thiếu các chi tiết cụ thể như 'thuyền có mui che' và các hoạt động bổ sung như 'dã ngoại, câu cá' so với đáp án chuẩn."
+  },
+  "VN_000241_q5": {
+    "score": 2,
+    "reasoning": "Câu trả lời mô tả sai thực thể chính (gọi là 'vùng đất trống' thay vì 'dải rừng thông xanh thẫm') và thiếu các chi tiết quan trọng về địa hình trùng điệp, sự mờ dần của đỉnh núi và bối cảnh hồ Tuyền Lâm/Đà Lạt, chỉ đúng một phần nhỏ về sự hiện diện của cây xanh và núi."
+  },
+  "VN_000249_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng màu nâu (nâu đất) nhưng thiếu mất màu xám, một trong hai màu chủ đạo theo đáp án chuẩn."
+  },
+  "VN_000249_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng cụ thể (6 thay vì 5), đây là dữ kiện chính xác cần trả lời cho câu hỏi đếm."
+  },
+  "VN_000249_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn thực thể (nói là con rắn trong khi đáp án chuẩn là dấu chân động vật) và bịa đặt các chi tiết không có căn cứ."
+  },
+  "VN_000249_q4": {
+    "score": 2,
+    "reasoning": "Mô hình đưa ra cơ chế hình thành do đá vỡ/nứt và nước mưa xói mòn, tuy có liên quan đến yếu tố nước nhưng đã bỏ sót các tác nhân chính như phong hóa do gió và sự thay đổi nhiệt độ, đồng thời mô tả cơ chế 'đá vỡ tạo hốc' không chính xác so với quá trình phong hóa/xói mòn tự nhiên được nêu trong đáp án chuẩn."
+  },
+  "VN_000249_q5": {
+    "score": 2,
+    "reasoning": "Câu trả lời đưa ra các giả thuyết chung chung về độ ẩm và nhiệt độ, không nêu bật được ý chính về nguồn gốc nước (mưa/tích tụ) và ý nghĩa sinh thái (môi trường sống cho động vật) như đáp án chuẩn."
+  },
+  "VN_000257_q3": {
+    "score": 2,
+    "reasoning": "Mô hình đã đọc sai nội dung trên bảng hiệu (bịa đặt tên 'Phu Tho Túc Thanh Mậu Song Son' thay vì 'Đền thờ Đức thánh mẫu Sòng Sơn'), dẫn đến câu trả lời sai sự thật và không khớp với đáp án chuẩn."
+  },
+  "VN_000257_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về tín ngưỡng (nêu là Phật giáo thay vì Đạo Mẫu) và bịa đặt thực thể 'Đức Bà Tràng' không tồn tại trong ngữ cảnh này."
+  },
+  "VN_000257_q5": {
+    "score": 2,
+    "reasoning": "Mô hình nhận diện sai loại hình kiến trúc (cho là chùa/đền Phật giáo thay vì tín ngưỡng thờ Mẫu) và đưa ra lý giải chung chung về ý nghĩa của năm 1990, không bám sát đáp án chuẩn."
+  },
+  "VN_000257_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc là đỏ (đỏ tươi), khớp hoàn toàn với đáp án chuẩn và cung cấp thêm ngữ cảnh phù hợp."
+  },
+  "VN_000257_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (bốn thay vì hai) và bịa đặt thêm các chi tiết không có trong đáp án chuẩn."
+  },
+  "VN_000333_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về số lượng và đối tượng được hỏi."
+  },
+  "VN_000333_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác thực thể là cây đào và cung cấp thêm thông tin ngữ cảnh phù hợp với câu hỏi về dịp Tết miền Bắc, hoàn toàn khớp với đáp án chuẩn."
+  },
+  "VN_000333_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác dịp lễ hội là Tết Nguyên đán, khớp hoàn toàn với đáp án chuẩn và có thêm lập luận hợp lý dựa trên các yếu tố trong câu hỏi."
+  },
+  "VN_000333_q5": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng yếu tố hoa văn/chạm khắc trên cột và mái, nhưng bỏ sót các thực thể cụ thể quan trọng như tượng rồng, phù điêu và chữ Hán/Nôm trong đáp án chuẩn, đồng thời thêm chi tiết ngói đỏ không được đề cập."
+  },
+  "VN_000333_q1": {
+    "score": 3,
+    "reasoning": "Mô hình trả lời màu 'đỏ nâu' trong khi đáp án chuẩn là 'đỏ cam', đây là sự khác biệt về sắc độ màu sắc cụ thể, tuy nhiên vẫn thuộc cùng nhóm màu đỏ và có liên quan đến ngữ cảnh kiến trúc."
+  },
+  "VN_000365_q2": {
+    "score": 2,
+    "reasoning": "Mô hình đưa ra con số 4, sai lệch hoàn toàn so với đáp án chuẩn là 2, và còn mâu thuẫn khi thừa nhận không thể xác định chính xác."
+  },
+  "VN_000365_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên cầu (Cầu Bến Thành thay vì Cầu Cao Lãnh), đây là lỗi bịa đặt thực thể (hallucination)."
+  },
+  "VN_000365_q4": {
+    "score": 3,
+    "reasoning": "Câu trả lời đúng về ý nghĩa chung (biểu tượng phát triển kinh tế, hạ tầng) nhưng thiếu các chi tiết cụ thể về vùng miền (Đồng bằng sông Cửu Long, miền Tây) và các tác động cụ thể (giao thương, du lịch, liên kết tỉnh) như trong đáp án chuẩn."
+  },
+  "VN_000365_q5": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã nắm bắt đúng các yếu tố cốt lõi như ánh sáng hồng tím, hiệu ứng phản chiếu lung linh và vẻ đẹp huyền ảo, tuy nhiên thiếu sót chi tiết về ánh vàng dọc mặt cầu và tên gọi cụ thể của cây cầu (Cao Lãnh) so với đáp án chuẩn."
+  },
+  "VN_000365_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng màu sắc chính (xanh đậm) và bối cảnh (buổi tối), tuy nhiên thiếu sót chi tiết về sắc tím hồng và cảm xúc lãng mạn như trong đáp án chuẩn."
+  },
+  "VN_000380_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình nêu đúng hai màu sắc (đỏ và vàng) khớp hoàn toàn với đáp án chuẩn, chỉ khác về thứ tự liệt kê."
+  },
+  "VN_000380_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn so với đáp án chuẩn (quán ăn/nhà hàng) khi đoán là văn phòng, trung tâm thương mại hoặc khu sinh hoạt cộng đồng, đồng thời thừa nhận không thể xác định chính xác."
+  },
+  "VN_000380_q4": {
+    "score": 1,
+    "reasoning": "Mô hình phủ nhận hoàn toàn hoạt động xây dựng/san lấp (đáp án chuẩn) và bịa đặt rằng đó là khu vực tự nhiên/công viên, đi ngược lại sự thật."
+  },
+  "VN_000380_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai về địa hình (gò đất cao hơn mặt đường thành đồi núi) và bịa đặt mục đích sử dụng (văn phòng, kinh doanh) thay vì các lý do chính xác như tầm nhìn, chống lũ/sóng biển như đáp án chuẩn."
+  },
+  "VN_000380_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng (4 thay vì 7) và mô tả sai bố trí (hàng dọc thay vì hàng ngang), dẫn đến thông tin không chính xác so với đáp án chuẩn."
+  },
+  "VN_000462_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sơn chủ đạo là màu vàng, khớp hoàn toàn với đáp án chuẩn, các chi tiết bổ sung không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000462_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác nhận chính xác số lượng là hai cây, khớp hoàn toàn với đáp án chuẩn và cung cấp thêm thông tin vị trí không mâu thuẫn."
+  },
+  "VN_000462_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn thực thể, nhầm lẫn giữa Bảo tàng Lịch sử Quốc gia Việt Nam và Nhà hát Quốc gia Hà Nội."
+  },
+  "VN_000462_q4": {
+    "score": 3,
+    "reasoning": "Câu trả lời chỉ nêu chung chung về việc thông báo hoạt động hoặc tên gọi, thiếu đi ý chính xác là quảng bá triển lãm văn hóa, nghệ thuật hoặc sự kiện đặc biệt như đáp án chuẩn."
+  },
+  "VN_000462_q5": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về địa điểm (nói là TP.HCM thay vì Hà Nội) và sai về màu sắc vật liệu lát đường (nói là đỏ đất thay vì xanh xám/xanh lam nhạt)."
+  },
+  "VN_000469_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu chủ đạo là màu đỏ, khớp hoàn toàn với đáp án chuẩn, phần bổ sung về chi tiết vàng không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000469_q3": {
+    "score": 2,
+    "reasoning": "Mô hình chỉ nhận diện được một phần nhỏ (PHU THO) và bịa đặt thêm thông tin sai lệch về loại hình công trình (chùa/đền thờ) thay vì trả lời đầy đủ tên gọi chính xác là PHU THO ĐUC THANH MAU SONG SON."
+  },
+  "VN_000469_q4": {
+    "score": 2,
+    "reasoning": "Mô hình đã bịa đặt thực thể 'Đức Thanh Mậu Song Sơn' (hallucination) thay vì nhận diện đúng tín ngưỡng thờ Mẫu/Đức Thánh Mẫu như đáp án chuẩn, dẫn đến sai lệch hoàn toàn về mặt ngữ nghĩa và sự thật lịch sử."
+  },
+  "VN_000469_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời chung chung, không xác định được bản chất tôn giáo (thờ Mẫu) và ý nghĩa lịch sử/văn hóa cụ thể của công trình như đáp án chuẩn, mà chỉ đưa ra các khả năng mơ hồ về việc thành lập hoặc xây dựng."
+  },
+  "VN_000469_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng linh vật (nói là ba trong khi đáp án chuẩn là hai) và bịa đặt chi tiết vị trí không chính xác."
+  },
+  "VN_000477_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn thực thể (bịa đặt tên 'Ngọt Cầu' và địa điểm Hà Nội) so với đáp án chuẩn là Quần thể Di tích Cố đô Huế."
+  },
+  "VN_000477_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã nắm bắt đúng các ý chính về sự uy nghi và ý nghĩa tâm linh, tuy nhiên thiếu sót chi tiết cụ thể về sự hòa hợp trời đất và mong cầu may mắn, bình an như trong đáp án chuẩn."
+  },
+  "VN_000477_q5": {
+    "score": 3,
+    "reasoning": "Mô hình trả lời đúng ý nghĩa biểu tượng của cây thông (trường tồn, bền vững) nhưng hoàn toàn bỏ sót thông tin về cấu trúc mái cong, chỉ trả lời được một nửa trọng tâm của câu hỏi."
+  },
+  "VN_000477_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác nhận chính xác số lượng là 'hai' cây thông, khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_000477_q1": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng màu sắc chính là vàng (cụ thể là vàng nhạt) nhưng thêm chi tiết phụ về lớp sơn trắng không có trong đáp án chuẩn, tuy nhiên vẫn nắm bắt được ý chính."
+  },
+  "VN_000510_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc là xanh lá cây, khớp hoàn toàn với đáp án chuẩn, các thông tin bổ sung không gây sai lệch."
+  },
+  "VN_000510_q2": {
+    "score": 1,
+    "reasoning": "Mô hình không đưa ra được con số cụ thể như đáp án chuẩn mà chỉ nói chung chung và viện cớ khó xác định, dẫn đến câu trả lời sai và không hữu ích."
+  },
+  "VN_000510_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng bản chất tôn giáo và ý nghĩa tâm linh (thanh tịnh, linh thiêng, thờ cúng) của công trình, tuy nhiên thiếu đi các chức năng cụ thể như thiền định hoặc sinh hoạt cộng đồng được nêu trong đáp án chuẩn."
+  },
+  "VN_000510_q5": {
+    "score": 4,
+    "reasoning": "Câu trả lời mô tả đúng bố cục không gian (trung tâm, hai bên đối xứng, ao phía trước) và ý nghĩa tổng thể (hài hòa, yên tĩnh), tuy nhiên thiếu chi tiết về vị trí 'phía sau' của kiến trúc chính và ý nghĩa phong thủy cụ thể như trong đáp án chuẩn."
+  },
+  "VN_000510_q3": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng một trong hai lựa chọn của đáp án chuẩn (đền) nhưng lại thêm vào một lựa chọn sai (nhà thờ), tuy nhiên phần mô tả chi tiết về kiến trúc (mái cong, họa tiết) vẫn phù hợp với bối cảnh di sản văn hóa Việt Nam."
+  },
+  "VN_000511_q1": {
+    "score": 3,
+    "reasoning": "Mô hình trả lời 'xanh lá cây nhạt' thay vì 'xanh rêu', đây là hai sắc độ khác nhau (xanh rêu thường đậm và ngả vàng hơn so với xanh lá nhạt), tuy nhiên vẫn thuộc cùng nhóm màu xanh nên được đánh giá là đúng một phần."
+  },
+  "VN_000511_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về số lượng (4 chiếc) và ngữ cảnh câu hỏi."
+  },
+  "VN_000511_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác loài cây là cây thông, khớp hoàn toàn với đáp án chuẩn và cung cấp thêm mô tả phù hợp."
+  },
+  "VN_000511_q4": {
+    "score": 2,
+    "reasoning": "Câu trả lời chỉ mô tả chung chung về hoạt động và lợi ích của nó mà không nêu rõ loại hình du lịch cụ thể (sinh thái và nghỉ dưỡng) như đáp án chuẩn."
+  },
+  "VN_000511_q5": {
+    "score": 2,
+    "reasoning": "Mô hình hoàn toàn bỏ sót thông tin quan trọng về các vật thể nổi trên mặt nước (thuyền thiên nga) và mô tả sai mối quan hệ giữa hàng cây và bầu trời (nói cây che phủ mặt nước thay vì tạo dải phân cách với bầu trời)."
+  },
+  "VN_000527_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc là xanh dương, khớp hoàn toàn với đáp án chuẩn và bổ sung thêm tính từ mô tả không gây sai lệch."
+  },
+  "VN_000527_q3": {
+    "score": 1,
+    "reasoning": "Mô hình không đưa ra được đáp án cụ thể mà chỉ mô tả chung chung và thừa nhận không thể xác định, dẫn đến sai hoàn toàn so với đáp án chuẩn."
+  },
+  "VN_000527_q4": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai loại cây trồng (trồng lúa thay vì trồng rau xanh/cây màu) và bịa đặt chi tiết về công nghệ hiện đại không có trong đáp án chuẩn."
+  },
+  "VN_000527_q5": {
+    "score": 2,
+    "reasoning": "Mô hình nhận diện đúng cây nhỏ, thân thẳng nhưng sai hoàn toàn về đặc điểm đất (bỏ qua màu trắng/sỏi/vỏ sò) và bịa đặt các loại cây không có căn cứ (cây dừa, cây bụi) cùng môi trường không khớp (phù sa, ẩm ướt) so với đáp án chuẩn (đất khô cằn, gần biển)."
+  },
+  "VN_000527_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về số lượng (10-15 so với 5) và thừa nhận không xác định được, trong khi đáp án chuẩn là con số cụ thể."
+  },
+  "VN_000548_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng màu sắc cốt lõi là 'màu đất' (tương đương 'nâu đất' trong đáp án chuẩn) nhưng thiếu từ chỉ sắc độ cụ thể và thêm chi tiết phụ về chất liệu lát đá không có trong đáp án chuẩn."
+  },
+  "VN_000548_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng bậc thang (5 thay vì 8), đây là dữ kiện chính xác cần trả lời, dẫn đến kết quả kém và không đúng trọng tâm."
+  },
+  "VN_000548_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác loại cây là tre, trùng khớp hoàn toàn với đáp án chuẩn và cung cấp thêm mô tả bổ trợ phù hợp."
+  },
+  "VN_000548_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác con số là ngày chụp ảnh, khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_000548_q5": {
+    "score": 3,
+    "reasoning": "Mô hình trả lời đúng xu hướng đi lên nhưng sai về vật liệu (nêu tre, cây cối thay vì đá), chỉ đúng một phần thông tin quan trọng."
+  },
+  "VN_000554_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc của bầu trời (xanh dương tương đương xanh lam) và bổ sung thêm chi tiết mô tả không gây sai lệch."
+  },
+  "VN_000554_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng thuyền (3 chiếc so với khoảng 7 chiếc) và thêm thông tin không có căn cứ về việc thuyền đang di chuyển trên biển, dẫn đến độ chính xác thấp."
+  },
+  "VN_000554_q3": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng thực thể cốt lõi là núi (dãy núi thấp) nhưng thêm các chi tiết mô tả phụ (cây xanh, sương mù) không có trong đáp án chuẩn, tuy nhiên không làm sai lệch ý nghĩa chính."
+  },
+  "VN_000554_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã xác định đúng hai loại hình du lịch chính là nghỉ dưỡng và du lịch sinh thái, tuy nhiên thiếu mất yếu tố 'khám phá thiên nhiên' và có một số liệt kê địa điểm không hoàn toàn chính xác (như Đà Lạt không phải là bãi biển)."
+  },
+  "VN_000554_q5": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã nắm bắt đúng ý chính về khung cảnh hùng vĩ và liệt kê được các hoạt động phù hợp như tắm biển, tham quan, nghỉ dưỡng, tuy nhiên thiếu một số hoạt động cụ thể như lặn biển hoặc chèo thuyền có trong đáp án chuẩn."
+  },
+  "VN_000559_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu chủ đạo là màu cam, khớp hoàn toàn với đáp án chuẩn (màu cam/đỏ cam), các chi tiết bổ sung không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000559_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời số lượng là 4, trong khi đáp án chuẩn là 2, đây là sai lệch hoàn toàn về dữ kiện chính của câu hỏi."
+  },
+  "VN_000559_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về tên địa điểm (Tạ Cơ thay vì Tà Cơn) và bịa đặt thêm thông tin sai lệch về năm 1968."
+  },
+  "VN_000559_q4": {
+    "score": 1,
+    "reasoning": "Câu trả lời của mô hình không xác định được sự kiện lịch sử cụ thể (Chiến dịch Khe Sanh) mà chỉ đưa ra một nhận định chung chung và không chính xác về địa lý, hoàn toàn không đáp ứng yêu cầu của câu hỏi."
+  },
+  "VN_000559_q5": {
+    "score": 1,
+    "reasoning": "Mô hình đã bịa đặt hoàn toàn sai lệch về bản chất của cơ sở (cho là khu công nghiệp thay vì căn cứ quân sự) và sai về chức năng của dải đường (cho là đường giao thông thay vì đường băng sân bay), đi ngược lại hoàn toàn với đáp án chuẩn."
+  },
+  "VN_000564_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc của lá cờ."
+  },
+  "VN_000564_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (10 thay vì 7) và bịa đặt chi tiết về cách sắp xếp không có trong đáp án chuẩn."
+  },
+  "VN_000564_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên ngân hàng (Đồng Nai thay vì Sacombank), đây là lỗi bịa đặt thực thể (hallucination)."
+  },
+  "VN_000564_q5": {
+    "score": 2,
+    "reasoning": "Mô hình đã nhận diện đúng bối cảnh thương mại (cửa hàng, sản phẩm) nhưng lại bịa đặt thông tin sai lệch về tên gọi ('Đồng Hà Nội') và suy luận sai về mục đích (điểm đến quốc tế/chính thức) thay vì liên hệ đến chiến dịch quảng bá/lễ hội cộng đồng như đáp án chuẩn."
+  },
+  "VN_000564_q4": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai tên sự kiện (bịa đặt 'Hương Vỹ' thay vì 'Mùa Hè Nhiệt Tình') dù đoán đúng năm 2012."
+  },
+  "VN_000567_q1": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng ý chính về màu sắc (xanh nhạt tương đương xanh dương) nhưng thêm các chi tiết phụ về thời tiết không có trong đáp án chuẩn."
+  },
+  "VN_000567_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên địa danh (nói là 'đất đai đá' thay vì 'Hòn Chồng') và bịa đặt thông tin không có căn cứ."
+  },
+  "VN_000567_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã bao gồm các hoạt động cốt lõi như 'chụp ảnh' và 'thưởng thức khung cảnh' (ngắm cảnh), tuy nhiên lại thêm vào các hoạt động không có trong đáp án chuẩn như 'tắm nắng' và 'trò chơi dân gian', khiến độ chính xác giảm nhẹ so với đáp án chuẩn ngắn gọn."
+  },
+  "VN_000567_q5": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng vị trí (phía xa) và yếu tố ngăn cách (biển), tuy nhiên mô tả 'bao quanh' và thêm chi tiết 'dòng sông' không hoàn toàn chính xác so với đáp án chuẩn 'nằm ở phía sau' và chỉ là 'biển'."
+  },
+  "VN_000567_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời mâu thuẫn với đáp án chuẩn (nói có hai tòa nhà nhưng liệt kê ba tòa nhà với màu sắc cụ thể), dẫn đến thông tin sai lệch và gây nhầm lẫn."
+  },
+  "VN_000641_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác số lượng người là một, khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_000641_q4": {
+    "score": 3,
+    "reasoning": "Câu trả lời chỉ đúng một phần ý nghĩa chung (bình an, thịnh vượng) nhưng thiếu các yếu tố cốt lõi cụ thể như 'thanh bình', 'mùa màng bội thu' và đặc biệt là ý nghĩa 'mong ước con cái thông minh, thành đạt', đồng thời có thêm mô tả mơ hồ về cậu bé."
+  },
+  "VN_000641_q5": {
+    "score": 2,
+    "reasoning": "Mô hình đã bịa đặt nghĩa của các Hán tự (dịch sai '奉彩風' thành 'Phúc trai' và '一祖相' thành 'Hai thế hệ'), dẫn đến việc giải thích sai lệch hoàn toàn về ý nghĩa công danh và tổ tiên trong đáp án chuẩn."
+  },
+  "VN_000641_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác trò chơi là thả diều, trùng khớp hoàn toàn với đáp án chuẩn, các chi tiết bổ sung không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000641_q1": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng màu sắc chính là đen nhưng thêm chi tiết phụ về màu xám và mô tả phong cách vẽ không có trong đáp án chuẩn, gây dư thừa thông tin."
+  },
+  "VN_000653_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc của đám mây là màu trắng, khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_000653_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về số lượng người trong ảnh."
+  },
+  "VN_000653_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác thực thể 'ruộng bậc thang' như đáp án chuẩn và cung cấp thêm mô tả bổ sung phù hợp với ngữ cảnh."
+  },
+  "VN_000653_q4": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng vùng miền (miền núi phía Bắc Việt Nam) nhưng thiếu chi tiết cụ thể về địa danh (khu bảo tồn thiên nhiên Pù Luông) và có một số mô tả chi tiết phụ không chính xác (lúa mì)."
+  },
+  "VN_000653_q5": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng cây trồng chính là lúa và đưa ra các hoạt động nông nghiệp hợp lý (trồng lúa), tuy nhiên có thêm chi tiết phụ không chính xác về mục đích của ruộng bậc thang (bảo vệ khỏi sâu bệnh) và thiếu đi các hoạt động chăm sóc cụ thể như trong đáp án chuẩn."
+  },
+  "VN_000708_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc của bầu trời là xanh dương, trùng khớp hoàn toàn với đáp án chuẩn, phần bổ sung về không có mây không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000708_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng cụ thể (5 thay vì ít nhất 10), dẫn đến kết luận không chính xác so với đáp án chuẩn."
+  },
+  "VN_000708_q3": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai về màu sắc (mũ tím thay vì nón lá), không nhận diện đúng thực thể 'nón lá' và đưa ra suy đoán mơ hồ, lạc đề so với đáp án chuẩn."
+  },
+  "VN_000708_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về phương pháp chèo (nói là dùng mái chèo nhỏ bằng gỗ thay vì chèo bằng chân như đáp án chuẩn)."
+  },
+  "VN_000708_q5": {
+    "score": 5,
+    "reasoning": "Câu trả lời đã xác định chính xác hoạt động tham quan cảnh đẹp thiên nhiên và yếu tố cần bảo vệ là ánh nắng mặt trời, đầy đủ và chính xác so với đáp án chuẩn."
+  },
+  "VN_000716_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng vạch trắng (nói là hai trong khi đáp án chuẩn là năm)."
+  },
+  "VN_000716_q3": {
+    "score": 1,
+    "reasoning": "Mô hình mô tả sai hoàn toàn cấu trúc (hình chữ nhật màu trắng) thay vì nhận diện đúng là cột điện cao thế như đáp án chuẩn."
+  },
+  "VN_000716_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã nắm bắt đúng các yếu tố cốt lõi như đường nông thôn, xe máy, cây xanh và không khí yên tĩnh, tuy nhiên thiếu chi tiết cụ thể về xe ba bánh và đồng ruộng so với đáp án chuẩn."
+  },
+  "VN_000716_q5": {
+    "score": 3,
+    "reasoning": "Mô hình trả lời đúng hướng dốc của con đường (dốc lên) và nhận diện được một phần phương tiện (xe máy), nhưng lại bịa đặt thêm loại phương tiện không có trong đáp án chuẩn (ô tô) và thiếu sót loại phương tiện quan trọng khác (xe ba bánh)."
+  },
+  "VN_000716_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc của các cọc ven đường."
+  },
+  "VN_000739_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc của bầu trời là xanh dương, khớp hoàn toàn với đáp án chuẩn, phần bổ sung về không có mây không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000739_q3": {
+    "score": 1,
+    "reasoning": "Mô hình không đưa ra được đáp án đúng (Vua Bảo Đại) mà thừa nhận không có thông tin cụ thể, dẫn đến việc không trả lời được câu hỏi."
+  },
+  "VN_000739_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn khi bịa đặt ra triều đại 'Phổ Hiến' (không tồn tại trong lịch sử Việt Nam) và không đưa ra được đáp án đúng là Nhà Nguyễn."
+  },
+  "VN_000739_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời đúng quốc gia nhưng bịa đặt ý nghĩa của màu vàng (không có trong đáp án chuẩn và sai sự thật về biểu tượng cờ đỏ sao vàng) và không nêu đúng ý nghĩa lịch sử cốt lõi của màu đỏ (máu hy sinh/cách mạng) như đáp án chuẩn."
+  },
+  "VN_000739_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác nhận chính xác số lượng là hai lá cờ, khớp hoàn toàn với đáp án chuẩn, các chi tiết bổ sung về màu sắc và vị trí không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000779_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc là xanh lục nhạt (tương đương xanh lá cây) và cung cấp thêm ngữ cảnh hợp lý, phản ánh chính xác đáp án chuẩn."
+  },
+  "VN_000779_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (3 thay vì 2) và bịa đặt chi tiết vị trí không có trong đáp án chuẩn."
+  },
+  "VN_000779_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên hồ (Hồ Cát Tiên thay vì Hồ Xuân Hương), đây là lỗi bịa đặt thực thể."
+  },
+  "VN_000779_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về thời kỳ ảnh hưởng văn hóa (nói là truyền thống Việt Nam thay vì thời Pháp thuộc) và bịa đặt các chi tiết kiến trúc không phù hợp với thực tế câu hỏi."
+  },
+  "VN_000779_q5": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về địa danh (Hà Nội thay vì Đà Lạt) và bịa đặt tên công trình (Tháp Cung Đền thay vì Tháp truyền hình)."
+  },
+  "VN_000794_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu chủ đạo là xanh dương, khớp hoàn toàn với đáp án chuẩn, các chi tiết bổ sung không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000794_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng cây thông (5 cây so với đáp án chuẩn là 3 cây)."
+  },
+  "VN_000794_q3": {
+    "score": 5,
+    "reasoning": "Mô hình đã nhận diện chính xác loại cây là cây thông, trùng khớp hoàn toàn với đáp án chuẩn, dù có thêm các mô tả bổ sung không chính xác về đặc điểm sinh học nhưng không làm sai lệch thực thể cốt lõi."
+  },
+  "VN_000794_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã xác định đúng địa hình đồi núi và hoạt động nông nghiệp, tuy nhiên thiếu chi tiết cụ thể về việc canh tác trên triền dốc và chỉ nêu chung chung về vai trò của hồ nước thay vì nhấn mạnh việc tận dụng tài nguyên nước như đáp án chuẩn."
+  },
+  "VN_000794_q5": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng vị trí tương đối (phía dưới, gần hơn so với núi ở xa) nhưng thiếu các thuật ngữ chuyên ngành về bố cục (tiền cảnh, trung cảnh, hậu cảnh) và không nêu rõ sự tương phản về độ cao như đáp án chuẩn."
+  },
+  "VN_000829_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời nhận diện đúng tông màu xanh (xanh nhạt gần với xanh lam) nhưng thiếu chính xác tuyệt đối so với đáp án chuẩn và thêm chi tiết phụ về mây không được yêu cầu."
+  },
+  "VN_000829_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng thuyền (nói là hai trong khi đáp án chuẩn là một) và bịa đặt chi tiết về màu sắc, kích thước không có trong đáp án chuẩn."
+  },
+  "VN_000829_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình xác định chính xác quốc gia là Việt Nam, trùng khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_000829_q5": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác quốc gia là Việt Nam và loại hình du lịch là du lịch biển/nghỉ dưỡng, hoàn toàn khớp với đáp án chuẩn."
+  },
+  "VN_000829_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn (đoán là thuyền buồm hoặc đánh cá) và thừa nhận không thể xác định, trong khi đáp án chuẩn là thuyền du lịch."
+  },
+  "VN_000872_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình xác định chính xác màu chủ đạo là màu đỏ, hoàn toàn khớp với đáp án chuẩn."
+  },
+  "VN_000872_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng bậc thang (12 thay vì 11), đây là lỗi sai sự thật trực tiếp về dữ kiện cụ thể của câu hỏi."
+  },
+  "VN_000872_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên gọi của lá cờ (gọi là cờ Phật giáo thay vì cờ ngũ sắc) và bịa đặt ý nghĩa biểu tượng không có trong đáp án chuẩn."
+  },
+  "VN_000872_q4": {
+    "score": 3,
+    "reasoning": "Mô hình trả lời đúng ý chung về 'lễ hội truyền thống' và 'lễ hội tôn giáo' nhưng lại liệt kê các lễ hội cụ thể không chính xác (Cao nguyên, Mường) và thiếu các dịp đặc trưng như Rước kiệu hay tế lễ truyền thống như trong đáp án chuẩn."
+  },
+  "VN_000872_q5": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã xác định đúng các yếu tố cốt lõi như tính chất tâm linh, lịch sử, không khí yên bình và các biểu tượng (cờ ngũ sắc, cổng vòm), tuy nhiên thiếu đi các chi tiết cụ thể về cảm giác 'cổ kính, rêu phong, huyền mặc' và không nêu bật được đặc trưng địa lý miền núi như trong đáp án chuẩn."
+  },
+  "VN_000890_q3": {
+    "score": 4,
+    "reasoning": "Mô hình xác định đúng phong cách hiện đại nhưng thiếu cụ thể tên gọi Art Deco và có mô tả chi tiết kiến trúc (mái vòm) có thể không chính xác so với đặc trưng Art Deco điển hình."
+  },
+  "VN_000890_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về bối cảnh lịch sử, gán phong cách kiến trúc thuộc địa Pháp cho 'kiến trúc cổ điển Việt Nam' và bịa đặt các chi tiết không có căn cứ."
+  },
+  "VN_000890_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai vật liệu chính (gạch men thay vì giả đá/thạch cao sần), bỏ sót họa tiết lưới ô vuông đặc trưng và mô tả sai chi tiết về cửa sổ/mái nhà, chỉ đúng một phần nhỏ về sự kết hợp với ban công và phong cách hiện đại."
+  },
+  "VN_000890_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời số lượng là 5 trong khi đáp án chuẩn là 2, đây là sai lệch hoàn toàn về dữ kiện chính của câu hỏi."
+  },
+  "VN_000890_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc của bầu trời là xanh dương, khớp hoàn toàn với đáp án chuẩn, phần mô tả thêm về đám mây không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_000934_q1": {
+    "score": 1,
+    "reasoning": "Câu trả lời của mô hình sai hoàn toàn so với đáp án chuẩn (trắng thay vì đỏ)."
+  },
+  "VN_000934_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về tên di tích."
+  },
+  "VN_000934_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác khu vực là 'di tích lịch sử cấp quốc gia', khớp hoàn toàn với đáp án chuẩn và cung cấp thêm ngữ cảnh phù hợp."
+  },
+  "VN_000934_q5": {
+    "score": 1,
+    "reasoning": "Câu trả lời bịa đặt hoàn toàn sai về tên xã, huyện và tỉnh so với đáp án chuẩn."
+  },
+  "VN_000934_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng xe máy (nói là hai trong khi đáp án chuẩn là một)."
+  },
+  "VN_000959_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc (xanh dương) của các thùng phao, khớp hoàn toàn với thông tin cốt lõi trong đáp án chuẩn."
+  },
+  "VN_000959_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn, gọi địa điểm là 'Hòn đảo' thay vì tên gọi cụ thể là Vịnh Bái Tử Long như đáp án chuẩn."
+  },
+  "VN_000959_q4": {
+    "score": 3,
+    "reasoning": "Câu trả lời đúng một phần về mục đích sinh hoạt nhưng bỏ sót thông tin cốt lõi về nuôi trồng thủy sản (nuôi cá lồng bè) và phát triển kinh tế, thay vào đó đưa ra các chi tiết phụ về vật liệu và thiết kế không nằm trong đáp án chuẩn."
+  },
+  "VN_000959_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai chức năng của thùng màu xanh dương (cho là chứa nước/thực phẩm thay vì làm phao nổi) và đưa ra thông tin sai lệch về việc dùng năng lượng mặt trời để làm nước uống."
+  },
+  "VN_000959_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng ngôi nhà (3 thay vì 2) và mô tả sai vị trí (song song thay vì liền kề), dẫn đến thông tin không chính xác so với đáp án chuẩn."
+  },
+  "VN_000976_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc (vàng nhạt) và được diễn đạt dưới dạng câu đầy đủ."
+  },
+  "VN_000976_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã nắm bắt đúng ý nghĩa cốt lõi là sự tôn kính, cầu nguyện và tưởng nhớ người đã khuất, tuy nhiên thiếu từ khóa 'thờ cúng' và cụ thể hóa đối tượng là 'người hy sinh trong chiến tranh' thay vì khái quát 'người đã khuất' như đáp án chuẩn."
+  },
+  "VN_000976_q5": {
+    "score": 3,
+    "reasoning": "Mô hình trả lời đúng ngôn ngữ thứ hai là tiếng Anh nhưng sai hoàn toàn ý nghĩa biểu tượng xoáy tròn (nói là thần linh/tín ngưỡng dân gian thay vì âm dương), dẫn đến chỉ đúng một phần thông tin quan trọng."
+  },
+  "VN_000976_q3": {
+    "score": 4,
+    "reasoning": "Mô hình xác định đúng sự kiện lịch sử là Sơn Mỹ nhưng có lỗi chính tả và diễn đạt không chuẩn xác ('sát sôi Mỹ' thay vì 'thảm sát Sơn Mỹ'), tuy nhiên vẫn truyền tải đúng ý nghĩa cốt lõi của đáp án chuẩn."
+  },
+  "VN_000976_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng nến (5 thay vì 2), đây là thông tin sai sự thật so với đáp án chuẩn."
+  },
+  "VN_000981_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng hoàn toàn (4 so với ít nhất 17) và bịa đặt chi tiết vị trí không có căn cứ."
+  },
+  "VN_000981_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn thực thể (đèn buồm thay vì thuyền thúng) và bịa đặt thông tin về công năng sử dụng."
+  },
+  "VN_000981_q4": {
+    "score": 2,
+    "reasoning": "Câu trả lời không nêu được ý chính là nghề đánh bắt cá mà lại đưa ra thông tin sai lệch (chở hàng hóa, đồ dùng cá mập) và chung chung, lạc khỏi trọng tâm của đáp án chuẩn."
+  },
+  "VN_000981_q5": {
+    "score": 2,
+    "reasoning": "Câu trả lời đưa ra nhận định chung chung về sự kết hợp du lịch và sinh hoạt, nhưng lại bịa đặt thông tin sai lệch khi gọi thuyền thúng là 'công trình kiến trúc', đồng thời thiếu các chi tiết cụ thể về trải nghiệm văn hóa như chèo thuyền hay tham quan đảo như trong đáp án chuẩn."
+  },
+  "VN_000981_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời đã xác định chính xác hình dạng là 'tròn' như đáp án chuẩn, các thông tin bổ sung khác không mâu thuẫn với trọng tâm câu hỏi."
+  },
+  "VN_000991_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình xác định chính xác số lượng người (hai người) và hành động (đi bộ trên đường), khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_000991_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã nắm bắt được các ý chính về thư giãn, sức khỏe và sự bình yên, tuy nhiên thiếu một số chi tiết cụ thể như 'gần gũi thiên nhiên' hay 'nhịp sống chậm rãi' so với đáp án chuẩn."
+  },
+  "VN_000991_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai thời điểm trong ngày (nói là mặt trời đang lặn thay vì sáng sớm) và chỉ đưa ra những cảm xúc chung chung, thiếu các ý chính về sự hòa hợp, tĩnh lặng và bắt đầu ngày mới như đáp án chuẩn."
+  },
+  "VN_000991_q1": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng tông màu vàng nhưng bỏ sót chi tiết màu trắng sáng và bối cảnh buổi sáng sớm, thay vào đó dùng từ 'cam' và mô tả cảm tính không có trong đáp án chuẩn."
+  },
+  "VN_000991_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn vì phủ nhận sự tồn tại của kiến trúc trong ảnh, trong khi đáp án chuẩn xác nhận có một công trình kiến trúc hình tháp (dù bị che khuất và ngược sáng)."
+  },
+  "VN_001054_q1": {
+    "score": 4,
+    "reasoning": "Mô hình đã nhận diện đúng hai màu chủ đạo là vàng và đỏ, tuy nhiên có thêm chi tiết màu trắng không có trong đáp án chuẩn và mô tả cụ thể vị trí màu sắc có thể chưa chính xác hoàn toàn nhưng không làm sai lệch ý chính."
+  },
+  "VN_001054_q2": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng số lượng lá cờ (hai) nhưng đã bịa đặt chi tiết sai lệch về màu sắc và ý nghĩa (quốc kỳ) của các lá cờ, trong khi đáp án chuẩn chỉ yêu cầu số lượng."
+  },
+  "VN_001054_q3": {
+    "score": 2,
+    "reasoning": "Mô hình chỉ trả lời tên thành phố (Đà Lạt) thay vì địa danh cụ thể là Ga Đà Lạt, dẫn đến thiếu chính xác về thực thể được hỏi."
+  },
+  "VN_001054_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn khi khẳng định không có thông tin trong ảnh, trong khi đáp án chuẩn là Cà phê."
+  },
+  "VN_001054_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên nhà ga (Đại lộ thay vì Đà Lạt) và chỉ đúng một phần thông tin về thời gian (10 giờ thay vì 10 giờ 10 phút)."
+  },
+  "VN_001086_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời nhận diện đúng tông màu xanh (xanh nhạt gần với xanh lam) nhưng thiếu chính xác về sắc độ cụ thể so với đáp án chuẩn và thêm chi tiết phụ về mây không được hỏi."
+  },
+  "VN_001086_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình cung cấp đúng số lượng (5) và mô tả chính xác đối tượng (lá cờ nhỏ nhiều màu sắc) theo đáp án chuẩn."
+  },
+  "VN_001086_q3": {
+    "score": 1,
+    "reasoning": "Câu trả lời của mô hình sai hoàn toàn so với đáp án chuẩn, bịa đặt tên cơ quan không tồn tại trong ngữ cảnh."
+  },
+  "VN_001086_q4": {
+    "score": 2,
+    "reasoning": "Câu trả lời của mô hình đưa ra các ý nghĩa chung chung về chính trị, lịch sử hoặc tổ chức, hoàn toàn không đề cập đến mục đích trang trí cho lễ hội, khai trương hay sự kiện đặc biệt như đáp án chuẩn, dẫn đến lạc đề và thiếu chính xác."
+  },
+  "VN_001086_q5": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về chủ sở hữu của tòa nhà (Ủy ban Nhân dân TP.HCM thay vì Viện Hải dương học) và mô tả sai chi tiết kiến trúc cửa sổ so với đáp án chuẩn."
+  },
+  "VN_001096_q1": {
+    "score": 4,
+    "reasoning": "Mô hình nhận diện đúng yếu tố ánh đèn vàng và tông màu xanh của mặt đất, tuy nhiên mô tả là 'xanh lục nhạt' thay vì 'vàng xanh' như đáp án chuẩn nên thiếu chính xác một chút về sắc độ tổng hợp."
+  },
+  "VN_001096_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng cấu trúc (5 thay vì 6) và thiếu thông tin chi tiết về màu sắc cũng như ý nghĩa mô phỏng sóng biển/sinh vật biển trong đáp án chuẩn."
+  },
+  "VN_001096_q4": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng chủ đề biển và cá, nhưng thiếu các chi tiết cụ thể như rong biển, san hô, và đặc biệt là bịa đặt các loài cá lớn (cá heo, cá voi) không có trong đáp án chuẩn, đồng thời không nêu rõ ý nghĩa văn hóa - du lịch đặc trưng của Cửa Lò."
+  },
+  "VN_001096_q5": {
+    "score": 2,
+    "reasoning": "Câu trả lời chỉ đưa ra các suy đoán chung chung về mục đích thẩm mỹ và tâm lý, hoàn toàn thiếu các thông tin cốt lõi về biểu tượng địa danh Cửa Lò, chức năng check-in, không gian sự kiện và ý nghĩa bản sắc biển cả như trong đáp án chuẩn."
+  },
+  "VN_001096_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về địa điểm (nói là TP.HCM trong khi đáp án chuẩn là TP Vinh/Cửa Lò, Nghệ An)."
+  },
+  "VN_001108_q1": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng màu sắc của lá (xanh lá cây) nhưng nhầm lẫn vị trí (nói là ở phần thân) và thêm thông tin thừa về rễ, tuy nhiên vẫn nắm bắt được ý chính về màu sắc thực vật."
+  },
+  "VN_001108_q3": {
+    "score": 1,
+    "reasoning": "Mô hình không xác định được tên loài hoa (hoa mõm sói) mà chỉ mô tả sai lệch về màu sắc và hình dạng (nói là hoa tròn trịa, màu hồng tím thay vì hoa mõm sói đa sắc)."
+  },
+  "VN_001108_q4": {
+    "score": 3,
+    "reasoning": "Mô hình xác định đúng đặc điểm 'Thành phố ngàn hoa' nhưng không nêu rõ tên thành phố cụ thể là Đà Lạt, dẫn đến thiếu thông tin cốt lõi so với đáp án chuẩn."
+  },
+  "VN_001108_q5": {
+    "score": 2,
+    "reasoning": "Mô hình chỉ nhận diện đúng một hoạt động (tham quan) và bỏ sót hoạt động quan trọng còn lại (chụp ảnh), đồng thời mô tả khung cảnh thiên nhiên chung chung, thiếu các chi tiết đặc trưng như đồi hoa đa sắc và rừng thông như trong đáp án chuẩn."
+  },
+  "VN_001108_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng kiến trúc (nói là hai trong khi đáp án chuẩn là bốn), đây là lỗi sai sự thật cơ bản về dữ kiện."
+  },
+  "VN_001210_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng vòm cổng (nói là hai trong khi đáp án chuẩn là một), đây là lỗi sai sự thật cơ bản."
+  },
+  "VN_001210_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác loại cây là cây dừa, khớp hoàn toàn với đáp án chuẩn và cung cấp thêm mô tả bổ sung phù hợp."
+  },
+  "VN_001210_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về ngày lễ (Quốc khánh thay vì Tết Nguyên Đán) và bịa đặt nội dung dòng chữ trên biểu ngữ."
+  },
+  "VN_001210_q5": {
+    "score": 4,
+    "reasoning": "Mô hình nhận diện đúng các yếu tố hiện đại (cột đèn, dây điện) và chức năng chính (chiếu sáng, cung cấp điện), tuy nhiên thiếu sót chi tiết về 'cột điện' riêng biệt và gán thêm chức năng 'an ninh giao thông' không có trong đáp án chuẩn."
+  },
+  "VN_001210_q1": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng màu sắc cốt lõi là 'đỏ' (gần với 'hồng đỏ' trong đáp án chuẩn) và bổ sung thêm chi tiết màu vàng, tuy nhiên thiếu đi sắc thái 'hồng' cụ thể của đáp án chuẩn."
+  },
+  "VN_001217_q1": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai màu sắc (xám nhạt thay vì xanh nhạt và trắng) và đưa ra suy luận logic mâu thuẫn (xám nhạt thường là trời râm/mây, không phải nắng)."
+  },
+  "VN_001217_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng đỉnh núi (nói 4 trong khi đáp án chuẩn là 3) và thêm các mô tả chi tiết không có trong đáp án chuẩn."
+  },
+  "VN_001217_q4": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng ý chính về sự hiện diện của con người (khu vực nông thôn/ngoại ô) nhưng bỏ sót các loại hình cụ thể quan trọng trong đáp án chuẩn như đường mòn du lịch hoặc khu nghỉ dưỡng, đồng thời đưa ra suy luận phụ về mật độ dân cư không có trong đáp án chuẩn."
+  },
+  "VN_001217_q5": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã nắm bắt đúng ý chính về sự tồn tại song song và hài hòa giữa yếu tố nhân tạo và tự nhiên, tuy nhiên thiếu đi các chi tiết cụ thể về mục đích công năng (giao tiếp, chiếu sáng, an ninh) như trong đáp án chuẩn và có thêm nhận định chủ quan về 'điểm nhấn kiến trúc'."
+  },
+  "VN_001217_q3": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng một trong hai khả năng của đáp án chuẩn (đèn đường/chiếu sáng) và mô tả chi tiết hợp lý, tuy nhiên thiếu khả năng còn lại là loa phóng thanh."
+  },
+  "VN_001240_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu chủ đạo là xanh dương (thuộc nhóm màu xanh) và bổ sung thêm chi tiết về mây, hoàn toàn phù hợp với đáp án chuẩn."
+  },
+  "VN_001240_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai tên nhà thờ (Nhà thờ Đức Bà thay vì Nhà thờ Gỗ Kon Tum), đây là lỗi bịa đặt thực thể (hallucination) hoặc nhầm lẫn nghiêm trọng."
+  },
+  "VN_001240_q5": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về địa điểm (Quảng Nam thay vì Kon Tum) và phong cách kiến trúc (Gothic/Á Đông thay vì Roman cổ điển/Nhà sàn Ba Na), đây là lỗi bịa đặt thông tin (hallucination)."
+  },
+  "VN_001240_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (2 thay vì 1) và bịa đặt chi tiết vị trí không có trong đáp án chuẩn."
+  },
+  "VN_001240_q4": {
+    "score": 1,
+    "reasoning": "Câu trả lời của mô hình sai hoàn toàn về vật liệu xây dựng (nêu là gạch và đá trong khi đáp án chuẩn là gỗ) và bịa đặt các chi tiết kiến trúc không có trong thực tế."
+  },
+  "VN_001329_q4": {
+    "score": 2,
+    "reasoning": "Câu trả lời chỉ nêu chung chung về 'sự tàn phá tự nhiên' và liệt kê các nguyên nhân mơ hồ (mưa, gió, con người) mà không xác định được thực thể cốt lõi là 'bão lớn hoặc siêu bão' như đáp án chuẩn, đồng thời thêm vào thông tin không liên quan về nỗ lực bảo vệ môi trường."
+  },
+  "VN_001329_q5": {
+    "score": 2,
+    "reasoning": "Mô hình chỉ mô tả cảnh quan một cách chung chung và lạc đề khi cho rằng các cơ sở công nghiệp 'góp phần làm tăng thêm vẻ đẹp', trong khi đáp án chuẩn nhấn mạnh tác động tiêu cực là 'làm thay đổi đáng kể cảnh quan tự nhiên' và sự chuyển đổi từ hoang sơ sang trung tâm kinh tế."
+  },
+  "VN_001329_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng (4 thay vì 3) và thêm các chi tiết mô tả không có trong đáp án chuẩn, dẫn đến thông tin không chính xác."
+  },
+  "VN_001329_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc là xanh ngọc lam (bao hàm ý nghĩa xanh ngọc) và cung cấp thêm thông tin bổ trợ phù hợp, không sai lệch so với đáp án chuẩn."
+  },
+  "VN_001329_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn khi khẳng định không có thông tin trong khi đáp án chuẩn là Vịnh Vũng Rô."
+  },
+  "VN_001347_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình trùng khớp hoàn toàn với đáp án chuẩn về số lượng và vị trí cổng vòm."
+  },
+  "VN_001347_q3": {
+    "score": 1,
+    "reasoning": "Mô hình thừa nhận không thể xác định tên chùa và chỉ đưa ra suy đoán chung chung, trong khi đáp án chuẩn đã chỉ ra cụ thể là chùa Bà Chúa Kho Bắc Ninh dựa trên dòng chữ Hán tự, do đó câu trả lời bị coi là sai hoàn toàn/không biết."
+  },
+  "VN_001347_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên gọi thực thể (gọi là cổng hai tầng/ba tầng thay vì Cổng Tam quan) và bịa đặt thông tin về phân loại sử dụng."
+  },
+  "VN_001347_q5": {
+    "score": 1,
+    "reasoning": "Mô hình đã bịa đặt hoàn toàn nội dung dòng chữ (đọc sai thành '古寺' thay vì 'CỔ SÁI ÂN') và giải thích sai ý nghĩa, không khớp với đáp án chuẩn."
+  },
+  "VN_001347_q1": {
+    "score": 1,
+    "reasoning": "Câu trả lời của mô hình sai hoàn toàn về màu sắc chủ đạo (trắng so với xám xanh và đỏ gạch) và bịa đặt chi tiết về lớp sơn bóng loáng."
+  },
+  "VN_001366_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng màu sắc cơ bản là màu đỏ, tuy nhiên thiếu chi tiết cụ thể 'gạch' so với đáp án chuẩn, nhưng vẫn truyền tải đúng ý chính."
+  },
+  "VN_001366_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác số lượng người là hai, khớp hoàn toàn với đáp án chuẩn và bổ sung thêm chi tiết giới tính không gây sai lệch."
+  },
+  "VN_001366_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về loại đèn (đèn lồng thay vì đèn huỳnh quang compact)."
+  },
+  "VN_001366_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về nguồn gốc văn hóa (nêu là Á Đông/Việt Nam thay vì Pháp/Gothic) và bịa đặt các chi tiết không có trong đáp án chuẩn."
+  },
+  "VN_001366_q5": {
+    "score": 3,
+    "reasoning": "Mô hình trả lời đúng màu áo (xanh dương) và nhận diện được một trong hai vật cầm (túi xách) nhưng sai màu của túi (vàng thay vì nâu) và bỏ sót chiếc khăn màu vàng."
+  },
+  "VN_001393_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên nhà thờ (bịa đặt 'Hội Thánh Đức Bà' thay vì 'Nhà thờ Phú Cường')."
+  },
+  "VN_001393_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác dịp lễ là Giáng Sinh, khớp hoàn toàn với đáp án chuẩn, các chi tiết bổ sung không gây sai lệch ngữ nghĩa."
+  },
+  "VN_001393_q5": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về địa điểm (nêu là TP.HCM trong khi đáp án chuẩn là TP. Thủ Dầu Một, Bình Dương), đây là lỗi bịa đặt thực thể địa lý rõ ràng."
+  },
+  "VN_001393_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng bức ảnh (8 thay vì 7), đây là lỗi sai sự thật trực tiếp với câu hỏi đếm số lượng."
+  },
+  "VN_001393_q1": {
+    "score": 1,
+    "reasoning": "Câu trả lời của mô hình sai hoàn toàn về màu sắc (nói là màu đỏ trong khi đáp án chuẩn là màu vàng)."
+  },
+  "VN_001394_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng màu sắc chủ đạo (xanh ngọc lam) nhưng thiếu chi tiết về sự chuyển đổi màu sắc theo độ sâu so với đáp án chuẩn."
+  },
+  "VN_001394_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời không biết và từ chối đưa ra kết luận, trong khi đáp án chuẩn đã xác định rõ số lượng là hai."
+  },
+  "VN_001394_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên địa danh (Bãi Dài) so với đáp án chuẩn (Hòn Nưa hoặc Đèo Cả), đây là lỗi bịa đặt thực thể."
+  },
+  "VN_001394_q4": {
+    "score": 2,
+    "reasoning": "Câu trả lời quá chung chung, thiếu các vai trò kinh tế cốt lõi như cảng biển, neo đậu tránh bão và nuôi trồng thủy sản, thay vào đó lại liệt kê các yếu tố không chính xác hoặc không liên quan như cung cấp nước sạch, không khí trong lành."
+  },
+  "VN_001394_q5": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên vịnh (Cát Bà thay vì Vũng Rô) và không xác định được bán đảo, đồng thời thừa nhận không thể xác định vị trí."
+  },
+  "VN_001400_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc là đỏ, khớp hoàn toàn với đáp án chuẩn, chi tiết thêm về màu chữ không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_001400_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng cây thông (nói là ba trong khi đáp án chuẩn là hai), đây là lỗi sai trực tiếp về dữ kiện chính của câu hỏi."
+  },
+  "VN_001400_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về nội dung và thực thể."
+  },
+  "VN_001400_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình bao hàm đầy đủ các ý chính của đáp án chuẩn (giá trị lịch sử, văn hóa, bảo tồn và giới thiệu di sản quốc gia) và diễn đạt mạch lạc, chính xác."
+  },
+  "VN_001400_q5": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng chức năng chính (khu trưng bày tài liệu lưu trữ quốc gia) nhưng bỏ sót hoàn toàn tên gọi cụ thể của công trình (Biệt Thự Lam Ngọc II) và không đưa ra được suy luận tổng hợp về bản chất kép của công trình như đáp án chuẩn."
+  },
+  "VN_001411_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc của đèn đường."
+  },
+  "VN_001411_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (10 thay vì 6), đây là lỗi sai sự thật rõ ràng về dữ kiện đếm số."
+  },
+  "VN_001411_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên cây cầu (Cầu Vàng thay vì Cầu Cần Thơ)."
+  },
+  "VN_001411_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã nắm bắt đúng vai trò cốt lõi về giao thông và phát triển kinh tế - xã hội, tuy nhiên thiếu chi tiết cụ thể về việc cầu là một phần của Quốc lộ 1A và chức năng kết nối giữa các tỉnh thành như trong đáp án chuẩn, đồng thời thêm vào yếu tố biểu tượng văn hóa không có trong dữ liệu gốc."
+  },
+  "VN_001411_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên con sông (sông Côn Đường thay vì sông Hậu) và bịa đặt thêm các địa phương không liên quan (Đồng Nai, Huế), dù đúng về loại hình kiến trúc cầu dây văng."
+  },
+  "VN_001421_q1": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng tông màu xanh (xanh nhạt) của bầu trời, tuy nhiên thiếu chính xác tuyệt đối so với đáp án chuẩn là 'xanh dương' và thêm các chi tiết phụ không được hỏi."
+  },
+  "VN_001421_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng trụ cầu (2 thay vì 4), đây là dữ kiện chính của câu hỏi, dẫn đến câu trả lời kém chính xác."
+  },
+  "VN_001421_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai tên cầu (Cầu Cát Tường thay vì Cầu Nhật Tân), đây là lỗi bịa đặt thực thể lịch sử/địa danh."
+  },
+  "VN_001421_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác phương tiện là xe máy, phù hợp hoàn toàn với đáp án chuẩn và ngữ cảnh câu hỏi."
+  },
+  "VN_001421_q5": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác thành phố Hà Nội và sông Hồng, khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_001429_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời nhận diện đúng màu sắc là xanh (xanh nhạt gần với xanh da trời) nhưng thiếu chính xác về sắc độ cụ thể so với đáp án chuẩn và thêm chi tiết phụ về mây không được hỏi."
+  },
+  "VN_001429_q3": {
+    "score": 1,
+    "reasoning": "Mô hình đã bịa đặt nội dung chữ viết cụ thể ('CHỢ VĂN') thay vì nhận diện đúng bản chất của vật thể là một biển báo chú ý như đáp án chuẩn."
+  },
+  "VN_001429_q4": {
+    "score": 1,
+    "reasoning": "Câu trả lời hoàn toàn sai sự thật, bịa đặt nội dung biển báo (cây dừa, bụi cây) thay vì cảnh báo về vách đá cao và trơn trượt như đáp án chuẩn."
+  },
+  "VN_001429_q5": {
+    "score": 2,
+    "reasoning": "Mô hình nhận diện đúng biển và núi nhưng bỏ sót các yếu tố quan trọng như bầu trời, hòn đảo, và mô tả sai vị trí tương đối (núi ở xa bên trái) cũng như bịa đặt chi tiết về cây trồng trong chậu."
+  },
+  "VN_001429_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (10 thay vì 8) và bịa đặt chi tiết về loại cây không có trong đáp án chuẩn."
+  },
+  "VN_001479_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc chủ đạo là xanh lá cây, khớp hoàn toàn với đáp án chuẩn và bổ sung thêm mô tả chi tiết phù hợp."
+  },
+  "VN_001479_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về địa điểm (Cà Mau thuộc miền Nam, không phải miền Bắc) và bịa đặt các đặc điểm khí hậu không phù hợp với thực tế."
+  },
+  "VN_001479_q4": {
+    "score": 2,
+    "reasoning": "Câu trả lời đưa ra khái niệm chung chung là 'du lịch nghỉ dưỡng' và các mô tả mơ hồ, không nêu được hoạt động cụ thể 'đi thuyền/chèo thuyền thăm quan hang động' như đáp án chuẩn."
+  },
+  "VN_001479_q5": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng mối quan hệ bao quanh và phản chiếu, cũng như thực vật trên núi, nhưng mô tả sai đặc điểm thực vật dưới nước (nêu rễ, cỏ, hoa thay vì bèo, rong rêu nổi) và thêm chi tiết màu nước không có trong đáp án chuẩn."
+  },
+  "VN_001479_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng ngọn núi (4 ngọn) so với đáp án chuẩn (2 ngọn)."
+  },
+  "VN_001528_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng màu sắc chủ đạo là xanh (xanh đậm), tuy nhiên không nêu chính xác thuật ngữ 'xanh lá cây' như đáp án chuẩn và thêm các mô tả cảm xúc không cần thiết."
+  },
+  "VN_001528_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác số lượng lá cờ là hai, khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_001528_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về loại cây (nói là cây cổ thụ/họ Tháp thay vì cây cau) và bịa đặt thêm các thông tin không có căn cứ."
+  },
+  "VN_001528_q4": {
+    "score": 4,
+    "reasoning": "Mô hình đã đưa ra đáp án đúng là Phật giáo, tuy nhiên lại kèm theo sự do dự và liệt kê thêm các tôn giáo khác không liên quan, làm giảm đi sự chắc chắn và độ chính xác tuyệt đối so với đáp án chuẩn."
+  },
+  "VN_001528_q5": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng vị trí chính (phía bên phải) nhưng thiếu chi tiết quan trọng về việc con đường đi qua phía sau cây thân gỗ và cây cau đứng gần con đường ở phía xa như trong đáp án chuẩn."
+  },
+  "VN_001615_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng thời điểm là mùa mưa (mùa mưa lũ), khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_001615_q5": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn cả tên thác (Tháp Ngự thay vì Thác Bảy Tầng) và địa điểm (Quảng Nam thay vì Lâm Đồng)."
+  },
+  "VN_001615_q2": {
+    "score": 5,
+    "reasoning": "Mô hình trả lời chính xác số lượng là 3 (khớp với đáp án chuẩn 'Ba') và cung cấp thêm mô tả chi tiết vị trí các tảng đá."
+  },
+  "VN_001615_q1": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng màu trắng nhưng bỏ sót màu nâu nhạt và thêm các mô tả cảm tính không có trong đáp án chuẩn."
+  },
+  "VN_001615_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai tên thác (Thác Ngọt thay vì Thác Pongour) và kèm theo lời thừa nhận thiếu chắc chắn, đây là lỗi bịa đặt thực thể (hallucination)."
+  },
+  "VN_001664_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc là xanh lá cây, trùng khớp hoàn toàn với đáp án chuẩn và bổ sung thêm mô tả ngữ cảnh phù hợp."
+  },
+  "VN_001664_q2": {
+    "score": 5,
+    "reasoning": "Mô hình trả lời đúng số lượng lớp cảnh quan là 3 (khớp với đáp án chuẩn 'Ba') và cung cấp thêm mô tả chi tiết cụ thể cho từng lớp."
+  },
+  "VN_001664_q3": {
+    "score": 4,
+    "reasoning": "Mô hình nhận diện đúng thực thể cốt lõi là 'núi đá' (trùng khớp với 'sườn núi đá' trong đáp án chuẩn), tuy nhiên có thêm các mô tả chi tiết phụ về màu sắc và cây cối không có trong đáp án chuẩn, nhưng không làm sai lệch ý chính."
+  },
+  "VN_001664_q4": {
+    "score": 4,
+    "reasoning": "Mô hình đã xác định đúng đặc điểm cốt lõi là môi trường ẩm ướt và hệ sinh thái phong phú, tuy nhiên có thêm một chi tiết sai lệch khi cho rằng các loài cây này phát triển tốt trong điều kiện thiếu nước."
+  },
+  "VN_001664_q5": {
+    "score": 3,
+    "reasoning": "Câu trả lời nhận diện đúng việc thực vật phát triển trên vách đá nhưng thiếu chi tiết cụ thể về việc bám vào kẽ nứt và bề mặt gồ ghề như trong đáp án chuẩn, thay vào đó lại thêm chi tiết về mảng đất khô không được đề cập."
+  },
+  "VN_001675_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng màu sắc cốt lõi (đỏ cam) phù hợp với đáp án chuẩn (cam), dù có thêm các chi tiết phụ về ý nghĩa văn hóa không nằm trong đáp án chuẩn."
+  },
+  "VN_001675_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng rồng (2 con thay vì 6 con) và bịa đặt thêm các chi tiết không có trong đáp án chuẩn."
+  },
+  "VN_001675_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về thực thể lịch sử (bịa đặt là thần linh/tín ngưỡng) trong khi đáp án chuẩn xác định rõ đó là sự tôn kính dành cho Chủ tịch Hồ Chí Minh."
+  },
+  "VN_001675_q5": {
+    "score": 1,
+    "reasoning": "Câu trả lời của mô hình hoàn toàn sai lệch so với đáp án chuẩn, mô tả nhầm nội dung phù điêu (chỉ nói về hình ảnh Bác) và ý nghĩa tượng trưng, bỏ qua các yếu tố cảnh quan và địa danh cụ thể được yêu cầu."
+  },
+  "VN_001675_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên gọi của công trình so với đáp án chuẩn (Đền thờ Bác Hồ)."
+  },
+  "VN_001734_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc của bức tường kè."
+  },
+  "VN_001734_q2": {
+    "score": 4,
+    "reasoning": "Mô hình đã xác định đúng số lượng cốt lõi là hai cột đèn, tuy nhiên việc thêm nhận định 'không thể xác định chính xác' làm giảm độ chắc chắn so với đáp án chuẩn tuyệt đối."
+  },
+  "VN_001734_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn thực thể (nói là con cá trong khi đáp án chuẩn là con rồng)."
+  },
+  "VN_001734_q4": {
+    "score": 1,
+    "reasoning": "Mô hình không trả lời đúng đáp án chuẩn (kinh doanh cà phê) mà đưa ra suy đoán sai lệch về bất động sản và thừa nhận không thể xác định."
+  },
+  "VN_001734_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai trọng tâm khi cho rằng mục đích chính là 'quản lý và bảo vệ hồ nước' thay vì 'tạo cảnh quan, phục vụ du khách và giải trí' như đáp án chuẩn, dù có nhắc đến yếu tố du lịch ở phần cuối nhưng bị lu mờ bởi thông tin sai lệch về chức năng chính."
+  },
+  "VN_001745_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc chủ đạo của ô che nắng."
+  },
+  "VN_001745_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về số lượng (5 chiếc)."
+  },
+  "VN_001745_q3": {
+    "score": 3,
+    "reasoning": "Mô hình đã đưa ra đúng đáp án 'khách sạn' nhưng lại kèm theo sự do dự, suy đoán thêm 'trung tâm thương mại' và thừa nhận không thể xác định chắc chắn, làm giảm độ chính xác và sự tự tin so với đáp án chuẩn."
+  },
+  "VN_001745_q4": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về hoạt động kinh tế (nói là du lịch thay vì đánh bắt hải sản) và bịa đặt các chi tiết không có trong đáp án chuẩn."
+  },
+  "VN_001745_q5": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng hai nhóm hoạt động (giải trí/du lịch và đánh bắt/cộng đồng địa phương) nhưng mô tả chi tiết không chính xác (gọi thuyền thúng là thuyền gỗ, gán sai các vật dụng như bàn ghế cho hoạt động văn hóa thay vì du lịch)."
+  },
+  "VN_001747_q4": {
+    "score": 5,
+    "reasoning": "Câu trả lời bao phủ đầy đủ các ý nghĩa cốt lõi (quyền lực/quyền uy, thịnh vượng, may mắn) và mở rộng hợp lý về biểu tượng hoàng gia/đế vương, không có thông tin sai lệch."
+  },
+  "VN_001747_q5": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng mối quan hệ tương đối giữa cột sóng và phù điêu (cột ở phía sau), nhưng thiếu thông tin về vị trí bên trái so với cây xanh và vị trí cụ thể của phù điêu (tiền cảnh, bên phải) như trong đáp án chuẩn."
+  },
+  "VN_001747_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác con vật là con rồng, trùng khớp hoàn toàn với đáp án chuẩn và bổ sung thêm mô tả chi tiết phù hợp."
+  },
+  "VN_001747_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình xác định chính xác số lượng là 3 chiếc lá, khớp hoàn toàn với đáp án chuẩn 'Ba'."
+  },
+  "VN_001747_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng màu chủ đạo là xám, tuy nhiên thiếu mất thành phần 'trắng' trong đáp án chuẩn 'xám trắng', dẫn đến thiếu sót một chi tiết nhỏ về sắc độ."
+  },
+  "VN_001751_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời đúng thực thể màu sắc chính (xanh dương) nhưng thiếu sót chi tiết màu trắng, tuy nhiên vẫn nắm bắt được ý tưởng cốt lõi."
+  },
+  "VN_001751_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác nhận chính xác số lượng là hai người phụ nữ, khớp hoàn toàn với đáp án chuẩn và cung cấp thêm mô tả chi tiết không gây sai lệch."
+  },
+  "VN_001751_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về thực thể (nói là bình đựng nước thay vì thùng rác hình chim cánh cụt)."
+  },
+  "VN_001751_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng hoạt động cốt lõi là đi bộ (tương đương đi dạo) và nhắc đến yếu tố thư giãn, tuy nhiên thiếu các hoạt động cụ thể khác như tập thể dục và ngắm cảnh so với đáp án chuẩn."
+  },
+  "VN_001751_q5": {
+    "score": 2,
+    "reasoning": "Mô hình đã bịa đặt chi tiết sai lệch về trạng thái của thuyền (neo đậu thay vì di chuyển) và trang phục của người phụ nữ (áo dài), đồng thời thiếu thông tin quan trọng về vị trí tương đối của sông và công viên so với lối đi bộ."
+  },
+  "VN_001784_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác tông màu chủ đạo là đen trắng, khớp hoàn toàn với đáp án chuẩn và bổ sung thêm ngữ cảnh phù hợp."
+  },
+  "VN_001784_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác số lượng là hai, khớp hoàn toàn với đáp án chuẩn, các chi tiết bổ sung không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_001784_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên bãi biển (La Plage thay vì Sầm Sơn) và bịa đặt thông tin không có căn cứ."
+  },
+  "VN_001784_q4": {
+    "score": 1,
+    "reasoning": "Mô hình đã bịa đặt thông tin sai lệch về năm (1829) và thời kỳ chính quyền (nhà nước Việt Nam thay vì thời Pháp thuộc), hoàn toàn không khớp với đáp án chuẩn."
+  },
+  "VN_001784_q5": {
+    "score": 2,
+    "reasoning": "Mô hình nhận diện đúng địa danh Sầm Sơn (Sam-Son) nhưng lại trả lời sai hoàn toàn về khu vực hành chính cũ (gọi là Annnim thay vì An Nam) và sai thành phố đóng dấu (Đà Nẵng thay vì Hà Nội)."
+  },
+  "VN_001819_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác nhận chính xác số lượng là 'hai' giống với đáp án chuẩn và bổ sung thêm mô tả chi tiết phù hợp ngữ cảnh."
+  },
+  "VN_001819_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng công trình là nhà máy thủy điện và nêu đúng chức năng sản xuất điện, tuy nhiên thiếu từ khóa 'truyền tải' và có một số suy diễn không cần thiết về mục đích kinh tế."
+  },
+  "VN_001819_q5": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng thực thể trụ sở (Công ty Thủy điện Hòa Bình) và chức năng chính của đường dây (truyền tải điện), tuy nhiên có một chút sai lệch nhỏ khi nói là truyền tải 'tín hiệu điện' thay vì 'điện năng' và thêm chi tiết phụ về ý nghĩa phát triển kỹ thuật không có trong đáp án chuẩn."
+  },
+  "VN_001819_q1": {
+    "score": 3,
+    "reasoning": "Mô hình chỉ nhận diện đúng một trong hai màu (đỏ) và bỏ sót màu vàng, dẫn đến thiếu một nửa thông tin quan trọng của đáp án chuẩn."
+  },
+  "VN_001819_q3": {
+    "score": 2,
+    "reasoning": "Mô hình đã bịa đặt sai tên công ty (Thủy Biên thay vì Thủy điện), đây là lỗi hallucination nghiêm trọng làm sai lệch thực thể cốt lõi."
+  },
+  "VN_001825_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác số lượng thuyền là hai chiếc, khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_001825_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn thực thể cây trồng (nói là cỏ dại/cây bụi thay vì lúa nước), đây là lỗi bịa đặt thông tin (hallucination) so với đáp án chuẩn."
+  },
+  "VN_001825_q4": {
+    "score": 2,
+    "reasoning": "Câu trả lời chứa nhiều thông tin sai lệch và bịa đặt (hallucination) như gán ghép 'công nghệ hiện đại', liệt kê các loại cây trồng không phù hợp với bối cảnh nông nghiệp Việt Nam (lúa mì, bắp cải, đậu nành) và không nêu bật được ý nghĩa cốt lõi về truyền thống và nguồn lương thực chính như đáp án chuẩn."
+  },
+  "VN_001825_q5": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng các yếu tố cảnh quan (núi đá vôi, sông nước, ruộng) và ý nghĩa du lịch chung (tham quan, trải nghiệm thiên nhiên), nhưng thiếu các ví dụ cụ thể về địa danh (Tam Cốc, Tràng An) và các hoạt động đặc thù (đi thuyền, tìm hiểu văn hóa nông nghiệp) như trong đáp án chuẩn."
+  },
+  "VN_001825_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc của bầu trời (xanh dương tương đương xanh lam) và bổ sung thêm chi tiết mô tả không gây sai lệch."
+  },
+  "VN_001831_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời nhận diện đúng tông màu xanh (xanh nhạt gần với xanh lam) nhưng thiếu chính xác tuyệt đối so với đáp án chuẩn và thêm chi tiết phụ về mây không được yêu cầu."
+  },
+  "VN_001831_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình cung cấp chính xác con số 10 (tương đương với 'Mười' trong đáp án chuẩn) và trả lời đúng trọng tâm câu hỏi."
+  },
+  "VN_001831_q3": {
+    "score": 1,
+    "reasoning": "Câu trả lời của mô hình hoàn toàn sai sự thật, bịa đặt nội dung cảnh báo (cây cọ) thay vì nội dung đúng (vách đá cao và trơn trượt)."
+  },
+  "VN_001831_q4": {
+    "score": 1,
+    "reasoning": "Câu trả lời hoàn toàn sai lệch so với đáp án chuẩn, bịa đặt nội dung trên biển báo và đưa ra lời khuyên về vệ sinh môi trường thay vì cảnh báo về vách đá cao và trơn trượt."
+  },
+  "VN_001831_q5": {
+    "score": 3,
+    "reasoning": "Mô hình nhận diện đúng các thuyền nhỏ nhưng bỏ sót hòn đảo nhỏ ở chân trời và mô tả sai vị trí tương đối của thuyền (nói gần bờ đá thay vì một gần bờ, một ở trung tâm)."
+  },
+  "VN_001847_q1": {
+    "score": 3,
+    "reasoning": "Mô hình chỉ nhận diện đúng một phần màu sắc (đỏ) nhưng bỏ sót màu vàng, dẫn đến thiếu thông tin quan trọng so với đáp án chuẩn."
+  },
+  "VN_001847_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng cột (2 thay vì 6) và bịa đặt thêm chi tiết về phong cách thiết kế không có trong đáp án chuẩn."
+  },
+  "VN_001847_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về tên gọi của bảo tàng."
+  },
+  "VN_001854_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc là 'đỏ nâu' (tương đương ngữ nghĩa với 'nâu đỏ' trong đáp án chuẩn) và cung cấp thêm ngữ cảnh phù hợp."
+  },
+  "VN_001875_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc là xanh dương (thuộc nhóm màu xanh) và bổ sung thêm chi tiết về đám mây, hoàn toàn phù hợp với đáp án chuẩn."
+  },
+  "VN_001883_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình xác định chính xác màu sắc (xanh ngọc lam) và đặc tính (trong) của nước biển, khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_001970_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc là xanh lục (tương đương xanh lá cây) và bổ sung thêm chi tiết mô tả hợp lý, không sai lệch so với đáp án chuẩn."
+  },
+  "VN_002047_q5": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số đăng ký (JN4A-52E thay vì VN-A452) và sai loại máy bay (YAK-00 thay vì YAK-40), chỉ đúng tên tổ chức."
+  },
+  "VN_002085_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời xác định đúng tông màu chủ đạo là đỏ, tuy nhiên thiếu chi tiết 'nâu' trong cụm từ 'nâu đỏ' của đáp án chuẩn, dẫn đến sự mô tả chưa đầy đủ sắc thái màu sắc."
+  },
+  "VN_002185_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác hình dạng là 'vuông' (tương đương 'hình vuông' trong đáp án chuẩn) và bổ sung thêm các chi tiết mô tả không mâu thuẫn."
+  },
+  "VN_002207_q4": {
+    "score": 2,
+    "reasoning": "Câu trả lời chỉ đưa ra các suy đoán chung chung về chức năng di chuyển và quản lý, hoàn toàn bỏ sót các mục đích cốt lõi là du lịch sinh thái và giáo dục môi trường như đáp án chuẩn."
+  },
+  "VN_002235_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc chủ đạo (xanh lá/xanh lá cây)."
+  },
+  "VN_002319_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (hai thay vì một) và bịa đặt vị trí chi tiết không có trong đáp án chuẩn."
+  },
+  "VN_002470_q3": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai tên riêng của ngôi chùa (Cổ Lê thay vì Cổ Lễ), đây là lỗi sai thực thể quan trọng làm thay đổi hoàn toàn đáp án."
+  },
+  "VN_002594_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về số lượng (một) và ngữ cảnh, chỉ khác nhau ở dạng câu văn đầy đủ."
+  },
+  "VN_002658_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng người (2 thay vì 3) và bịa đặt chi tiết về trang phục/hành động không có trong đáp án chuẩn, dẫn đến thông tin không chính xác."
+  },
+  "VN_002770_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc của lá cờ."
+  },
+  "VN_002896_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời số lượng 20 con, sai hoàn toàn so với đáp án chuẩn là 7 con."
+  },
+  "VN_002926_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã nắm bắt đúng các ý chính về sự trường tồn và sức sống (biểu tượng của sự sống) nhưng thiếu ý về tính linh thiêng và thêm vào các ý phụ về môi trường không có trong đáp án chuẩn."
+  },
+  "VN_003081_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai tên thánh (Sainte Marie thay vì Sainte Monique), đây là lỗi bịa đặt thực thể (hallucination) rõ ràng."
+  },
+  "VN_003104_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác nhận chính xác số lượng là bốn người, khớp hoàn toàn với đáp án chuẩn, các chi tiết bổ sung không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_003136_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc là màu xám, khớp hoàn toàn với đáp án chuẩn, phần bổ sung về thời tiết không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_003220_q1": {
+    "score": 4,
+    "reasoning": "Câu trả lời nhận diện đúng màu xanh và sự hiện diện của mây trắng, tuy nhiên dùng từ 'xanh dương' thay vì 'xanh nhạt' và mô tả mây 'bồng bềnh' thay vì 'trải rộng', dẫn đến sự khác biệt nhỏ về sắc thái so với đáp án chuẩn."
+  },
+  "VN_003290_q4": {
+    "score": 2,
+    "reasoning": "Câu trả lời chứa nhiều thông tin sai lệch và mâu thuẫn (ví dụ: rừng ngập mặn không phải là vùng núi cao, châu Âu không có khí hậu nhiệt đới), dù có nhắc đến từ khóa 'nhiệt đới' nhưng ngữ cảnh tổng thể không chính xác so với đáp án chuẩn."
+  },
+  "VN_003326_q4": {
+    "score": 2,
+    "reasoning": "Mô hình chỉ đưa ra phỏng đoán chung chung về thủy lợi/thoát nước, không nhận diện đúng chức năng cụ thể là tháp điều tiết/lấy nước của hồ chứa (Hồ Dầu Tiếng) như đáp án chuẩn."
+  },
+  "VN_003463_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc là hồng, chi tiết 'nhạt' không làm sai lệch thông tin cốt lõi so với đáp án chuẩn."
+  },
+  "VN_003641_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (nói là hai trong khi đáp án chuẩn là một) và bịa đặt chi tiết không có trong đáp án chuẩn."
+  },
+  "VN_003644_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác nhận chính xác số lượng là 'hai' như đáp án chuẩn, các chi tiết bổ sung không mâu thuẫn với sự thật."
+  },
+  "VN_003762_q1": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai về đặc điểm màu sắc (nêu cụ thể màu xanh dương thay vì đa sắc) và bịa đặt chi tiết trang trí, không khớp với đáp án chuẩn."
+  },
+  "VN_003887_q5": {
+    "score": 4,
+    "reasoning": "Mô hình trả lời đúng số lượng (hai chiếc) và chức năng chính (che nắng), tuy nhiên mô tả chi tiết về đối tượng được che (bàn ghế ngoài trời thay vì quầy bán hàng giải khát) có sự sai lệch nhỏ so với đáp án chuẩn."
+  },
+  "VN_003912_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc là xanh dương (cụ thể là xanh dương nhạt) và bổ sung thêm chi tiết không có mây, hoàn toàn phù hợp với đáp án chuẩn."
+  },
+  "VN_003941_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình cung cấp chính xác tên khu chợ là 'Chợ Đầm', khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_003994_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (hai thay vì năm) và bịa đặt thêm các chi tiết không có trong đáp án chuẩn."
+  },
+  "VN_004186_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn thực thể (gọi là 'đất đá' thay vì 'núi') và bịa đặt các thông tin địa lý vô lý như 'biển Tây Nguyên'."
+  },
+  "VN_004273_q4": {
+    "score": 4,
+    "reasoning": "Câu trả lời đã xác định đúng hoạt động cốt lõi là 'tắm biển' nhưng thiếu mất phần 'nghỉ dưỡng biển' so với đáp án chuẩn, tuy nhiên vẫn nắm bắt được ý chính của bối cảnh."
+  },
+  "VN_004336_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc của bầu trời là xanh dương, khớp hoàn toàn với đáp án chuẩn, phần bổ sung về không có mây không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_004418_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (nói là hai trong khi đáp án chuẩn là một) và bịa đặt chi tiết về vị trí các đoạn thác không có trong đáp án chuẩn."
+  },
+  "VN_004531_q2": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai số lượng cột trụ (nói là ba trong khi đáp án chuẩn là bốn), đây là lỗi sai sự thật trực tiếp về dữ kiện chính của câu hỏi."
+  },
+  "VN_004544_q2": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác nhận chính xác số lượng là hai bức tượng, khớp hoàn toàn với đáp án chuẩn, các chi tiết bổ sung không gây sai lệch ngữ nghĩa."
+  },
+  "VN_004571_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về danh tính nhân vật, chỉ khác biệt ở dấu hoa thị trong cách viết 'Phó Bảng' so với 'Phó bảng' nhưng không ảnh hưởng đến ngữ nghĩa."
+  },
+  "VN_004589_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc (đỏ) và được diễn đạt dưới dạng câu đầy đủ."
+  },
+  "VN_004644_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (5 thay vì 4), đây là lỗi sai sự thật trực tiếp với câu hỏi đếm."
+  },
+  "VN_004704_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc của con đường."
+  },
+  "VN_004738_q4": {
+    "score": 2,
+    "reasoning": "Câu trả lời đưa ra các hoạt động chung chung (đi dạo, tắm biển) không khớp với đáp án chuẩn cụ thể về du lịch sinh thái Tràng An (chèo thuyền, khám phá kênh rạch), trong đó chi tiết 'tắm biển' là sai lệch hoàn toàn so với bối cảnh rừng/kênh rạch."
+  },
+  "VN_004906_q3": {
+    "score": 4,
+    "reasoning": "Mô hình đã xác định đúng hoạt động cốt lõi là mua bán cá (chợ cá), tuy nhiên thiếu đi các chi tiết ngữ cảnh quan trọng như địa điểm Phú Quốc và quy mô tấp nập của cảng cá như trong đáp án chuẩn."
+  },
+  "VN_004995_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời đã xác định chính xác màu sắc là 'xám nhạt' khớp với đáp án chuẩn, phần bổ sung về thời điểm chụp là suy luận hợp lý không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_005008_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình khớp hoàn toàn với đáp án chuẩn về màu sắc của mái tháp."
+  },
+  "VN_005058_q3": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình bao hàm đầy đủ các ý chính trong đáp án chuẩn (khách sạn, khu nghỉ dưỡng/resort) và bổ sung thêm các mục đích liên quan hợp lý mà không gây sai lệch thông tin."
+  },
+  "VN_005126_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác hai màu chủ đạo là cam và hồng, khớp hoàn toàn với đáp án chuẩn, phần mô tả thêm không làm sai lệch thông tin cốt lõi."
+  },
+  "VN_005157_q1": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn về loài hoa (hoa rồng thay vì hoa sen) và bịa đặt thêm thông tin không liên quan."
+  },
+  "VN_005222_q3": {
+    "score": 2,
+    "reasoning": "Mô hình chỉ nhận diện đúng loại địa điểm là bãi biển nhưng hoàn toàn không xác định được địa danh cụ thể là Nha Trang như đáp án chuẩn, thay vào đó đưa ra suy đoán chung chung về vùng khí hậu."
+  },
+  "VN_005331_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc chủ đạo là xanh dương, khớp hoàn toàn với đáp án chuẩn và bổ sung thêm mô tả phù hợp."
+  },
+  "VN_005388_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời của mô hình xác định đúng màu sắc chủ đạo là xanh lam, khớp hoàn toàn với đáp án chuẩn."
+  },
+  "VN_005432_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định chính xác màu sắc là màu hồng, khớp hoàn toàn với đáp án chuẩn, phần mô tả thêm không gây sai lệch."
+  },
+  "VN_005450_q2": {
+    "score": 2,
+    "reasoning": "Mô hình không đưa ra con số cụ thể mà trả lời chung chung và thừa nhận không xác định được, trong khi đáp án chuẩn là một con số rõ ràng (Một)."
+  },
+  "VN_005507_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên thực thể, dùng cụm từ chung chung 'Tòa nhà cổ' thay vì tên cụ thể 'Cổng Văn Miếu Xích Đằng' như đáp án chuẩn."
+  },
+  "VN_005607_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc là đỏ nâu (tương đương nâu đỏ) và bổ sung thêm chi tiết về kiểu lợp ngói, hoàn toàn chính xác so với đáp án chuẩn."
+  },
+  "VN_005680_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng dòng chữ (hai thay vì bốn), đây là thông tin cốt lõi của câu hỏi."
+  },
+  "VN_005698_q3": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai hoàn toàn tên gọi của công trình (Hội Đức Bà thay vì Thánh Thất Cao Đài Tây Ninh)."
+  },
+  "VN_005741_q1": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời sai màu sắc cụ thể (xanh dương thay vì xanh ô liu), tuy nhiên vẫn nhận diện đúng đối tượng là lá cờ ở giữa ảnh."
+  },
+  "VN_005749_q1": {
+    "score": 5,
+    "reasoning": "Câu trả lời xác định đúng màu sắc của bầu trời (xanh dương tương đương xanh lam) và cung cấp thêm thông tin bổ trợ hợp lý, không sai lệch so với đáp án chuẩn."
+  },
+  "VN_005773_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (4 thay vì 2), đây là lỗi sai sự thật rõ ràng so với đáp án chuẩn."
+  },
+  "VN_005791_q1": {
+    "score": 1,
+    "reasoning": "Câu trả lời của mô hình sai hoàn toàn về màu sắc so với đáp án chuẩn (vàng thay vì đen)."
+  },
+  "VN_005798_q2": {
+    "score": 1,
+    "reasoning": "Mô hình trả lời sai số lượng (2 thay vì 1) và bịa đặt chi tiết vị trí không có trong đáp án chuẩn."
+  },
+  "VN_005817_q4": {
+    "score": 2,
+    "reasoning": "Mô hình trả lời chung chung về cây cối rậm rạp, không nêu được các đặc điểm cụ thể như rêu phong và rễ cây buông dài theo đáp án chuẩn, đồng thời đưa ra thông tin sai lệch về môi trường 'khô hạn'."
+  }
+}
