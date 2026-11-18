@@ -45,6 +45,7 @@ data/samples/*
 # Bulky Experiment Output Dumps (keep only markdown summaries)
 experiments/**/*.json
 docs/training_logs/*.json
+experiments/lora_finetuned/
 
 # IDE & OS artifacts
 .vscode/
