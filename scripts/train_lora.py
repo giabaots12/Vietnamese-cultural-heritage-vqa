@@ -332,6 +332,14 @@ def main():
         save_steps = max(total_steps // 2, 1)
         eval_steps = save_steps
         logger.info(f"🔄 Điều chỉnh tự động: save_steps={save_steps}, eval_steps={eval_steps} cho bài chạy {total_steps} bước.")
+    elif val_dataset is not None:
+        # HuggingFace TrainingArguments yêu cầu: nếu load_best_model_at_end=True thì save_steps phải chia hết cho eval_steps
+        if eval_steps > save_steps or (eval_steps > 0 and save_steps % eval_steps != 0):
+            logger.warning(
+                f"⚠️ eval_steps ({eval_steps}) không tương thích với save_steps ({save_steps}) khi kích hoạt load_best_model_at_end. "
+                f"Tự động điều chỉnh eval_steps = {save_steps} để đảm bảo Trainer khởi chạy trơn tru tuyệt đối."
+            )
+            eval_steps = save_steps
 
     # ==========================================================================
     # 3. THIẾT LẬP HUGGINGFACE TRAINING ARGUMENTS

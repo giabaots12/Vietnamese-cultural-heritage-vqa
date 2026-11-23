@@ -20,6 +20,8 @@ env/
 
 # Heavy Model Weights & Pre-trained Checkpoints (>100MB)
 models/Vintern-1B-v3_5/
+models/adapters/*
+!models/adapters/.gitkeep
 models/**/*.safetensors
 models/**/*.bin
 models/**/*.pth
