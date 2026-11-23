@@ -187,7 +187,7 @@ def compute_bleu(pred: str, gt: str, max_n: int = 4) -> Dict[str, float]:
         gt_ngrams = _get_ngrams(gt_tokens, n)
 
         if not pred_ngrams:
-            p_ns.append(0.0)
+            p_ns.append(1e-9)
             continue
 
         clipped_matches = sum((pred_ngrams & gt_ngrams).values())
@@ -199,14 +199,14 @@ def compute_bleu(pred: str, gt: str, max_n: int = 4) -> Dict[str, float]:
         else:
             precision_n = clipped_matches / total_pred_ngrams
 
-        p_ns.append(precision_n)
+        p_ns.append(max(precision_n, 1e-9))
 
     results = {"brevity_penalty": round(bp, 4)}
 
     # Tính BLEU tích lũy từ 1 đến max_n
     for k in range(1, max_n + 1):
         weights = [1.0 / k] * k
-        log_precisions = [w * math.log(p_ns[i]) for i, w in enumerate(weights)]
+        log_precisions = [w * math.log(max(p_ns[i], 1e-9)) for i, w in enumerate(weights)]
         bleu_k = bp * math.exp(sum(log_precisions))
         results[f"bleu_{k}"] = round(bleu_k, 4)
 
@@ -364,23 +364,23 @@ class LLMJudgeEvaluator:
                     self._resolved_model = target_model
                     return self._resolved_model
 
-                # 2. Danh sách ưu tiên theo thứ tự năng lực thẩm định VQA
+                # 2. Danh sách ưu tiên theo thứ tự năng lực thẩm định VQA tiếng Việt
                 preferred = [
-                    "llama-3.1-8b-instant",
+                    "qwen/qwen3.8-27b",
+                    "openai/gpt-oss-120b",
+                    "openai/gpt-oss-20b",
                     "llama-3.3-70b-versatile",
-                    "meta-llama/llama-3.1-8b-instruct",
-                    "gemma2-9b-it",
-                    "mixtral-8x7b-32768",
+                    "llama-3.1-8b-instant",
                 ]
                 for p in preferred:
                     if p in active_models:
                         self._resolved_model = p
                         return self._resolved_model
 
-                # 3. Model chat bất kỳ còn active (bỏ qua whisper, guard, tts)
+                # 3. Model chat bất kỳ còn active (bỏ qua whisper, guard, tts, allam tiếng Ả Rập)
                 chat_models = [
                     mid for mid in active_models
-                    if not any(k in mid.lower() for k in ["whisper", "guard", "tts", "safeguard"])
+                    if not any(k in mid.lower() for k in ["whisper", "guard", "tts", "safeguard", "allam", "orpheus"])
                 ]
                 if chat_models:
                     self._resolved_model = chat_models[0]
@@ -427,11 +427,27 @@ class LLMJudgeEvaluator:
 
             try:
                 import requests
-                for attempt in range(4):
+                for attempt in range(25):
                     try:
-                        resp = requests.post(url, json=payload, headers=headers, timeout=25)
+                        resp = requests.post(url, json=payload, headers=headers, timeout=30)
                         if resp.status_code == 429:
-                            time.sleep(2.0 * (attempt + 1))
+                            retry_after = 15.0
+                            h_retry = resp.headers.get("retry-after") or resp.headers.get("Retry-After")
+                            if h_retry:
+                                try:
+                                    retry_after = float(h_retry)
+                                except ValueError:
+                                    pass
+                            else:
+                                try:
+                                    m = re.search(r"try again in ([\d\.]+)s", resp.text)
+                                    if m:
+                                        retry_after = float(m.group(1))
+                                except Exception:
+                                    pass
+                            wait_s = max(retry_after, 5.0) + 1.5
+                            print(f"\n[RATE LIMIT 429] Máy chủ Groq bận, tự động đợi {wait_s:.1f}s để giải phóng hạn mức rồi gửi lại...", flush=True)
+                            time.sleep(wait_s)
                             continue
                         if resp.status_code != 200:
                             return {"score": None, "reasoning": f"Groq Error {resp.status_code}: {resp.text}"}
@@ -444,7 +460,7 @@ class LLMJudgeEvaluator:
                             "reasoning": str(parsed.get("reasoning", "")),
                         }
                     except requests.exceptions.RequestException:
-                        time.sleep(1.5)
+                        time.sleep(4.0)
             except ImportError:
                 import urllib.request
                 import urllib.error
