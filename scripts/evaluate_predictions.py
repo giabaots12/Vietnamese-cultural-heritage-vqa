@@ -256,12 +256,11 @@ def main():
                     else:
                         logger.warning(f"⚠️ Câu {qid} không chấm được: {res.get('reasoning')}")
 
-                    # Lưu cache định kỳ
-                    if idx % 10 == 0 or idx == len(target_items):
-                        with open(judge_cache_file, "w", encoding="utf-8") as f:
-                            json.dump(judge_cache, f, ensure_ascii=False, indent=2)
+                    # Lưu cache ngay sau mỗi câu để không bao giờ mất kết quả
+                    with open(judge_cache_file, "w", encoding="utf-8") as f:
+                        json.dump(judge_cache, f, ensure_ascii=False, indent=2)
                     import time
-                    time.sleep(0.5)
+                    time.sleep(3.5)
 
             # Lưu lại lần cuối
             with open(judge_cache_file, "w", encoding="utf-8") as f:
